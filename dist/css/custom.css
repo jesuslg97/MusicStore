@@ -28,3 +28,12 @@ body {
     font-weight: bolder;
     font-size: 40px;
 }
+
+.active {
+    background-color: #23272b;
+    border-radius: 10%;
+}
+
+.active > a {
+    color: white !important;
+}
