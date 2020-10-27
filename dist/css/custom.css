@@ -37,3 +37,8 @@ body {
 .active > a {
     color: white !important;
 }
+
+ul {width:630px;}
+ul li {width:200px;margin:0 5px;line-height:16px;}
+ul li.col1 {margin-left:0;}
+ul li.col2 {margin-left:210px;}
