@@ -1,3 +1,8 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 body {
     background-image: url("../img/background-guitar.jpg");
     width: 100%;
@@ -7,14 +12,15 @@ body {
     background-attachment: fixed;
     background-position: center center;
     font-family: Source Serif Pro;
+    margin: 0;
+    margin-bottom: 250px;
 }
 
 .myFooter{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-
 }
 
 .content{
@@ -24,6 +30,11 @@ body {
     border-radius: 10px;
 }
 
+.content2{
+    background: #F3E6E6;
+    opacity: 0.89;
+    border-radius: 10px;
+}
 #Titulo {
     font-weight: bolder;
     font-size: 40px;
