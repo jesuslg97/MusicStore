@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Source Serif Pro'>
-    <link rel="icon" href="dist/img/logo_32x32.png">
+    <link rel="icon" href="../dist/img/logo_32x32.png">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="dist/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="dist/css/custom.css">
+    <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../dist/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../dist/css/custom.css">
 
-    <title>Detalles del producto</title>
+    <title>Teclados</title>
 </head>
 <body class="container-fluid">
 
@@ -22,9 +22,9 @@
     <!-- Image and text -->
     <div class="d-flex align-items-center">
         <a class="my-3" href="#">
-            <img src="dist/img/logo.png" height="50" class="d-inline-block align-top" alt="" loading="lazy">
+            <img src="../dist/img/logo.png" height="50" class="d-inline-block align-top" alt="" loading="lazy">
         </a>
-        <a class="mx-3" href="index.html">
+        <a class="mx-3" href="../index.html">
             <h1 id="Titulo" class="text-dark">
                 MusicStore
             </h1>
@@ -43,8 +43,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="guitar-bajos.html">Guitarras/Bajos <span class="sr-only">(current)</span></a>
@@ -52,7 +52,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="percusion.html">Percusión <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="teclados.html">Teclados <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -81,25 +81,10 @@
 <!-- CONTENIDO -->
 <div class="offset-1 col-10">
     <div class="d-flex justify-content-center mt-5 content">
-        <div class="col-sm-12">
+        <div class="col-sm-10">
             <div id="carouselExampleIndicators" class="carousel slide w-75" data-ride="carousel">
                 <div class="carousel-inner">
-                    <li>
-                        <div class="d-flex">
-                            <img src="dist/img/guitarra-electrica-1.PNG">
-                            <h4>Harley Benton ST-20 BK Standard Series</h4>
-                            <ul>
-                                <li class="col1">Cuerpo de madera de tilo</li>
-                                <li class="col1">Conmutador de 5 vías</li>
-                                <li class="col1">Hardware cromado</li>
-                                <li class="col1">Mecánicas cerradas</li>
-                                <li class="col2">Trémolo sincronizado</li>
-                                <li class="col2">Medida: 648 mm</li>
-                                <li class="col2">Ancho de cejuela: 42 mm</li>
-                                <li class="col2">Radio del diapasón: 350 mm</li>
-                            </ul>
-                        </div>
-                    </li>
+
                 </div>
             </div>
         </div>
@@ -108,9 +93,51 @@
 <!-- /CONTENIDO -->
 
 <!-- FOOTER -->
-<footer class="py-4 bg-dark text-white myFooter">
+<footer class="pt-4 bg-dark text-white myFooter pb-0 pt-2 mt-5">
     <div class="offset-1 col-10">
-
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <h4 class="mb-3">Contáctanos:</h4>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto border-white" style="width: 80px;">
+                    <div class="d-flex flex-row">
+                        <div class="flex-row">
+                            <p><i class="fas fa-map-marker mr-2"></i>
+                                C/Juan Perez Nº8 Las Palmas
+                            </p>
+                            <p><i class="far fa-clock mr-2"></i>
+                                08:00 - 16:00
+                            </p>
+                        </div>
+                        <div class="flex-row ml-4">
+                            <p><i class="fas fa-phone-alt mr-2"></i>
+                                +34 928765432 - 665437980
+                            </p>
+                            <p><i class="fas fa-envelope mr-2"></i>
+                                musicstore@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-md-2 col-md-4 col-xs-12">
+                    <h4 class="mb-3">Más sobre MusicStore:</h4>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto border-white" style="width: 100px;">
+                    <br>
+                    <span><i class="fab fa-instagram mr-2 h3 mx-2"></i>
+                    </span>
+                    <span><i class="fab fa-youtube h3 mx-2"></i>
+                    </span>
+                    <span><i class="fab fa-facebook h3 mx-2"></i>
+                    </span>
+                    </span><i class="fab fa-twitter h3 mx-2"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-secondary">
+        <div class="mx-auto" style="width:250px">
+            <span >Copyright <i class="far fa-copyright"></i> 2020 MusicStore</span>
+        </div>
     </div>
 </footer>
 <!-- FOOTER -->
@@ -119,7 +146,7 @@
 <!-- Optional JavaScript; choose one of the two! -->
 
 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-<script src="dist/js/jquery-3.5.1.js" ></script>
-<script src="dist/js/bootstrap.bundle.min.js"></script>
+<script src="../dist/js/jquery-3.5.1.js" ></script>
+<script src="../dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
