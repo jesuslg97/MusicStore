@@ -48,3 +48,22 @@ body {
 .active > a {
     color: white !important;
 }
+
+.form1 {
+    background: rgba(196,196,196,0.8);
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding: 8%;
+    padding-top: 3%;
+    border-radius: 10px;
+}
+
+.form1 button {
+    background: #333333;
+    border: #333333;
+}
+
+.form1 a {
+    color: #000000;
+}
