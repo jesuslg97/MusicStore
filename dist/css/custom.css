@@ -13,8 +13,36 @@ body {
     background-position: center center;
     font-family: Source Serif Pro;
     margin: 0;
-    margin-bottom: 250px;
 }
+
+@media (max-width: 768px) {
+    body {
+        margin-bottom: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        margin-bottom: 350px;
+    }
+}
+
+@media (min-width: 1150px) {
+    body {
+        margin-bottom: 250px;
+    }
+}
+@media (max-width: 1000px) {
+    .parrafoHomePage {
+        width: 100% !important;
+    }
+
+    #carouselExampleIndicators {
+        width: 100% !important;
+    }
+
+}
+
 
 .myFooter{
     position: absolute;
