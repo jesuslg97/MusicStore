@@ -59,6 +59,20 @@ body {
     border-radius: 10px;
 }
 
+.form2 {
+    background: rgba(196,196,196,0.8);
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    padding: 8%;
+    padding-top: 3%;
+    border-radius: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
 .form1 button {
     background: #333333;
     border: #333333;
