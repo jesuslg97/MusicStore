@@ -67,3 +67,15 @@ body {
 .form1 a {
     color: #000000;
 }
+
+.linea1 hr {
+    border-width:4px;
+    border-style:dotted;
+    border-color:black;
+    width:50%;
+}
+
+.titulo-producto h4 {
+    font-weight: bold;
+    text-underline: black;
+}
