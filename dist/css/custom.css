@@ -68,14 +68,50 @@ body {
     color: #000000;
 }
 
+.imagenes img {
+    border-radius: 10px;
+}
+
 .linea1 hr {
-    border-width:4px;
-    border-style:dotted;
-    border-color:black;
-    width:50%;
+    border: 3px solid #666;
+    border-radius: 300px/10px;
+    height: 0px;
+    text-align: center;
 }
 
 .titulo-producto h4 {
     font-weight: bold;
-    text-underline: black;
+    font-size: x-large;
+    color: blue;
+    font-family: cursive;
+}
+
+.enlace a {
+    font-size: larger;
+    color: black;
+}
+
+.enlace a:link {
+    background: rgb(255, 255, 204);
+
+}
+
+.enlace a:visited {
+    color: darkviolet;
+}
+
+.precio span {
+    font-weight: bold;
+    display: flex;
+    text-align: left;
+    font-size: large;
+    font-family: cursive;
+}
+
+.boton button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background: yellow;
+    font-weight: bold;
 }
