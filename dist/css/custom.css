@@ -82,22 +82,22 @@ body {
 .titulo-producto h4 {
     font-weight: bold;
     font-size: x-large;
-    color: blue;
-    font-family: cursive;
+    color: #333333;
+    font-family: Source Serif Pro;
 }
 
 .enlace a {
     font-size: larger;
-    color: black;
+    color: white;
 }
 
 .enlace a:link {
-    background: rgb(255, 255, 204);
+    background: #333333;
 
 }
 
 .enlace a:visited {
-    color: darkviolet;
+    color: rgb(255, 128, 255);
 }
 
 .precio span {
