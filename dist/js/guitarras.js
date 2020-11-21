@@ -4,7 +4,7 @@ function loadJSON(path = "/dist/json/instruments.json") {
 
     $.getJSON(path, function (json) {
         if (json.guitar) {
-            json.guitar.slice(0,6).forEach ( item => {
+            json.guitar.slice(0,2).forEach (item => {
                 $('#product').append('\
                 <div class="imagenes">\
                     <picture>\
