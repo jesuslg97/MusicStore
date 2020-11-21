@@ -114,3 +114,22 @@ body {
     background: yellow;
     font-weight: bold;
 }
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.valid:invalid {
+    border: 2px solid red;
+}
+
+.valid:valid {
+    border: 1px solid greenyellow;
+}
+
+input {
+    padding: 10px 15px;
+    font-size: 1em;
+    outline: none;
+}
