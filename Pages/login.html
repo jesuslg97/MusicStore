@@ -12,11 +12,14 @@
     <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../dist/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../dist/css/custom.css">
+    <link rel="stylesheet" href="../dist/css/form.css">
 
-    <!-- JavaScript js -->
+    <!-- jQuery, Bootstrap, JavaScript js -->
+    <script src="../dist/js/jquery-3.5.1.js" ></script>
+    <script src="../dist/js/bootstrap.bundle.min.js"></script>
     <script src="../dist/js/validation-form.js"></script>
 
-    <title>Formulario</title>
+    <title>Iniciar sesión</title>
 </head>
 <body class="container-fluid">
 
@@ -70,7 +73,7 @@
                     <a class="nav-link" href="login.html">Log in <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Registrarse <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="register.html">Registrarse <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
@@ -81,28 +84,43 @@
 </header>
 <!-- /CABECERA -->
 
+<!-- CONTENIDO -->
 <form class="offset-1 col-10 form1">
     <div class="d-flex justify-content-center mb-2" >
         <img src="../dist/img/logo.png" height="50" alt="Logo" loading="lazy">
     </div>
-    <h1 class="d-flex justify-content-center mb-2"> Formulario </h1>
-    <div class="form-group">
-        <input type="email" class="form-control valid" id="email"
-               aria-describedby="emailHelp" placeholder="Dirección de e-mail">
+    <h1 class="d-flex justify-content-center mb-2"> Log in </h1>
+    <hr class="teal accent-3 mb-4 mt-0 mx-auto border-dark
+     d-flex justify-content-center" style="width: 200px;">
+
+    <!-- Box email -->
+    <div class="form-group valid">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email"
+               aria-describedby="emailHelp" placeholder="example@example.com">
         <span id="eemail" class="error"></span>
     </div>
+    <!-- Box email -->
 
-    <div class="form-group">
-        <input type="password" class="form-control valid" id="passwd" placeholder="Contraseña">
+    <!-- Box password -->
+    <div class="form-group valid">
+        <label for="passwd">Contraseña:</label>
+        <input type="password" class="form-control" id="passwd" placeholder="....">
         <span id="epasswd" class="error"></span>
     </div>
+    <!-- Box password -->
 
+    <!-- Box login -->
     <div class="d-flex justify-content-center mb-2">
-        <button type="submit" onclick="return validate_user()" class="btn btn-primary">Login</button>
+        <button type="submit" onclick="return validate_login()" class="btn btn-primary">Login</button>
     </div>
+    <!-- Box login -->
 
-    <a href="contraseña.html" class="d-flex justify-content-center">¿Olvidaste la contraseña?</a>
+    <div class="text-center">
+        <a href="../Pages/password.html">¿Olvidaste la contraseña?</a>
+    </div>
 </form>
+<!-- /CONTENIDO -->
 
 <!-- FOOTER -->
 <footer class="pt-4 bg-dark text-white myFooter pb-0 pt-2 mt-5">
@@ -141,7 +159,8 @@
                     </span>
                     <span><i class="fab fa-facebook h3 mx-2"></i>
                     </span>
-                    </span><i class="fab fa-twitter h3 mx-2"></i></span>
+                    <span><i class="fab fa-twitter h3 mx-2"></i>
+                    </span>
                 </div>
             </div>
         </div>
@@ -154,11 +173,5 @@
 </footer>
 <!-- FOOTER -->
 
-
-<!-- Optional JavaScript; choose one of the two! -->
-
-<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-<script src="../dist/js/jquery-3.5.1.js" ></script>
-<script src="../dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
