@@ -95,12 +95,3 @@ body {
     background: yellow;
     font-weight: bold;
 }
-
-.error {
-    color: red;
-    font-weight: bold;
-}
-
-.valid:invalid {
-    border: 2px solid red;
-}

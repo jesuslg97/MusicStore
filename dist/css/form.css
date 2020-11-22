@@ -33,6 +33,11 @@
     border-radius: 10px;
 }
 
+.form2 button {
+    background: #333333;
+    border: #333333;
+}
+
 .form3 {
     background: rgba(196,196,196,0.8);
     width: 70%;
@@ -41,4 +46,18 @@
     padding: 8%;
     padding-top: 3%;
     border-radius: 10px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.validate {
+    font-size: larger;
+    color: rgb(0, 128, 0);
+}
+
+.novalidate {
+    font-size: larger;
 }

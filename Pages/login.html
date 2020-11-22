@@ -85,42 +85,62 @@
 <!-- /CABECERA -->
 
 <!-- CONTENIDO -->
-<form class="offset-1 col-10 form1">
-    <div class="d-flex justify-content-center mb-2" >
-        <img src="../dist/img/logo.png" height="50" alt="Logo" loading="lazy">
-    </div>
-    <h1 class="d-flex justify-content-center mb-2"> Log in </h1>
-    <hr class="teal accent-3 mb-4 mt-0 mx-auto border-dark
+<section>
+    <form class="offset-1 col-10 form1 was-validated">
+        <div class="d-flex justify-content-center mb-2" >
+            <img src="../dist/img/logo.png" height="50" alt="Logo" loading="lazy">
+        </div>
+        <h1 class="d-flex justify-content-center mb-2"> Log in </h1>
+        <hr class="teal accent-3 mb-4 mt-0 mx-auto border-dark
      d-flex justify-content-center" style="width: 200px;">
 
-    <!-- Box email -->
-    <div class="form-group valid">
-        <label for="email">Email:</label>
-        <input type="email" class="form-control" id="email"
-               aria-describedby="emailHelp" placeholder="example@example.com">
-        <span id="eemail" class="error"></span>
-    </div>
-    <!-- Box email -->
+        <!-- Box email -->
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email"
+                   aria-describedby="emailHelp" placeholder="example@example.com" required>
+            <span id="eemail" class="error"></span>
 
-    <!-- Box password -->
-    <div class="form-group valid">
-        <label for="passwd">Contraseña:</label>
-        <input type="password" class="form-control" id="passwd" placeholder="....">
-        <span id="epasswd" class="error"></span>
-    </div>
-    <!-- Box password -->
+            <div class="valid-feedback">
+                <span class="validate">Contraseña válida.</span>
+            </div>
+            <div class="invalid-feedback">
+                <span class="novalidate">Rellene este campo.</span>
+            </div>
+        </div>
+        <!-- Box email -->
 
-    <!-- Box login -->
-    <div class="d-flex justify-content-center mb-2">
-        <button type="submit" onclick="return validate_login()" class="btn btn-primary">Login</button>
-    </div>
-    <!-- Box login -->
+        <!-- Box password -->
+        <div class="form-group">
+            <label for="passwd">Contraseña:</label>
+            <input type="password" class="form-control" id="passwd" placeholder="...." required>
+            <span id="epasswd" class="error"></span>
 
-    <div class="text-center">
-        <a href="../Pages/password.html">¿Olvidaste la contraseña?</a>
-    </div>
-</form>
+            <div class="valid-feedback">
+                <span class="validate">Email válido.</span>
+            </div>
+            <div class="invalid-feedback">
+                <span class="novalidate">Rellene este campo.</span>
+            </div>
+        </div>
+        <!-- Box password -->
+
+        <!-- Box login -->
+        <div class="d-flex justify-content-center mb-2">
+            <button type="submit" onclick="return validate_login()" class="btn btn-primary">Login</button>
+        </div>
+        <!-- Box login -->
+
+        <div class="text-center">
+            <a href="../Pages/password.html">¿Olvidaste la contraseña?</a>
+        </div>
+    </form>
+</section>
 <!-- /CONTENIDO -->
+
+<script>
+
+</script>
 
 <!-- FOOTER -->
 <footer class="pt-4 bg-dark text-white myFooter pb-0 pt-2 mt-5">
