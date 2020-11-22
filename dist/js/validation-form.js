@@ -9,7 +9,7 @@ function validate_login() {
     //Validar email
     var regex_email = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
     if(regex_email.test(email) !== true) {
-        document.getElementById("eemail").innerHTML ="El email no coincide con los estándares sobre la " +
+        document.getElementById("eemail").innerHTML ="El email no coincide con la " +
             "estructura de un email, por favor inténtelo de nuevo.";
         flag = false;
     } else {
@@ -40,7 +40,7 @@ function validate_password() {
     //Validar email
     var regex_email = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
     if(regex_email.test(email) !== true) {
-        document.getElementById("eemail").innerHTML ="El email no coincide con los estándares sobre la " +
+        document.getElementById("eemail").innerHTML ="El email no coincide con la " +
             "estructura de un email, por favor inténtelo de nuevo.";
         flag = false;
     } else {
@@ -162,14 +162,42 @@ function validate_register() {
 }
 
 /*Función para validar el formulario buy.html*/
-/*
 function validate_buy() {
 
     //Variables
+    var email = document.getElementById("email").value;
     var credit = document.getElementById("credit").value;
+    var codeCV = document.getElementById("codeCV").value;
+    var flag = true;
 
+    //Validar email
+    var regex_email = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
+    if(regex_email.test(email) !== true) {
+        document.getElementById("eemail").innerHTML ="El email no coincide con la " +
+            "estructura de un email, por favor inténtelo de nuevo.";
+        flag = false;
+    } else {
+        document.getElementById("eemail").innerHTML ="";
+    }
 
     //Validar tarjeta crédito
     var regex_credit = /^(?:4\d([\- ])?\d{6}\1\d{5}|(?:4\d{3}|5[1-5]\d{2}|6011)([\- ])?\d{4}\2\d{4}\2\d{4})$/;
+    if(regex_credit.test(credit) !== true) {
+        document.getElementById("ecredit").innerHTML ="El número de la tarjeta no coincide con la " +
+            "estructura de una tarjeta bancaria, por favor inténtelo de nuevo.";
+        flag = false;
+    } else {
+        document.getElementById("ecredit").innerHTML ="";
+    }
 
-}*/
+    //Validar codeCV
+    var regex_codeCV = /[0-9]/;
+    if(regex_codeCV.test(codeCV) !== true) {
+        document.getElementById("ecodeCV").innerHTML = "El CV debe ser numérico";
+        flag = false;
+    } else{
+        document.getElementById("ecodeCV").innerHTML = "";
+    }
+
+    return flag;
+}

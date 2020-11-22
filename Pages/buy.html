@@ -1,10 +1,331 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Source Serif Pro'>
+    <link rel="icon" href="../dist/img/logo_32x32.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../dist/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../dist/css/custom.css">
+    <link rel="stylesheet" href="../dist/css/form.css">
+
+    <!-- jQuery, Bootstrap, JavaScript js -->
+    <script src="../dist/js/jquery-3.5.1.js" ></script>
+    <script src="../dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../dist/js/validation-form.js"></script>
+
+    <title>Comprar</title>
 </head>
-<body>
+<body class="container-fluid">
+
+<!-- CABECERA -->
+<header class="offset-1 col-10">
+    <!-- Image and text -->
+    <div class="d-flex align-items-center">
+        <a class="my-3" href="#">
+            <img src="../dist/img/logo.png" height="50" class="d-inline-block align-top" alt="" loading="lazy">
+        </a>
+        <a class="mx-3" href="#">
+            <h1 id="Titulo" class="text-dark">
+                MusicStore
+            </h1>
+        </a>
+        <a class="text right d-flex ml-auto">
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button type="button" class="btn btn-dark">Search</button>
+            </form>
+        </a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="guitar-bajos.html">Guitarras/Bajos <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="percusion.html">Percusión <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="teclados.html">Teclados <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iluminacion.html">Iluminación <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dj.html">Dj <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Log in <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Registrarse <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!-- /CABECERA -->
+
+<!-- CONTENIDO -->
+<form class="offset-1 col-12 form3 was-validated">
+    <section class="container">
+        <div class="row justify-content-center">
+
+            <!-- Bloque izquierda -->
+            <div class="col-lg-8 col col-md-10">
+                <h3 class="d-flex mb-2"> Datos del usuario </h3>
+                <div class="row">
+
+                    <!-- Bloque izquierda-izquierda -->
+                    <div class="col-lg-6 col-md-6 col-sm-10 mx-auto">
+
+                        <!-- Box name -->
+                        <div class="form-group">
+                            <label for="name">Nombre:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Nombre" minlength="3" maxlength="10" required>
+                            <span id="ename" class="error"></span>
+
+                            <div class="valid-feedback">
+                                <span class="validate">Nombre válido.</span>
+                            </div>
+                            <div class="invalid-feedback">
+                                <span class="novalidate">Rellene este campo.</span>
+                            </div>
+                        </div>
+                        <!-- Box name -->
+
+                        <!-- Box pais -->
+                        <div class="form-group">
+                            <label for="country">País:</label>
+                            <input type="text" class="form-control" id="country" placeholder="Pais" minlength="5" maxlength="15" required>
+                            <span id="ecountry" class="error"></span>
+
+                            <div class="valid-feedback">
+                                <span class="validate">País válido.</span>
+                            </div>
+                            <div class="invalid-feedback">
+                                <span class="novalidate">Rellene este campo.</span>
+                            </div>
+                        </div>
+                        <!-- Box pais -->
+
+                        <!-- Box direccion -->
+                        <div class="form-group">
+                            <label for="direction">Dirección:</label>
+                            <input type="text" class="form-control" id="direction" placeholder="Dirección" minlength="5" maxlength="15" required>
+                            <span id="edirection" class="error"></span>
+
+                            <div class="valid-feedback">
+                                <span class="validate">Dirección válida.</span>
+                            </div>
+                            <div class="invalid-feedback">
+                                <span class="novalidate">Rellene este campo.</span>
+                            </div>
+                        </div>
+                        <!-- Box direccion -->
+
+                        <!-- Box email -->
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email"
+                                   aria-describedby="emailHelp" placeholder="example@example.com" required>
+                            <span id="eemail" class="error"></span>
+
+                            <div class="valid-feedback">
+                                <span class="validate">Email válido.</span>
+                            </div>
+                            <div class="invalid-feedback">
+                                <span class="novalidate">Rellene este campo.</span>
+                            </div>
+                        </div>
+                        <!-- Box email -->
+                    </div>
+                    <!-- Bloque izquierda-izquierda -->
+
+                    <!-- Bloque izquierda-derecha -->
+                    <div class="col-lg-6 col-md-6 col-sm-10 mx-auto">
+
+                        <!-- Box apellidos -->
+                        <div class="form-group">
+                            <label for="surname">Apellidos:</label>
+                            <input type="text" class="form-control" id="surname" placeholder="Apellidos" minlength="10" maxlength="20" required>
+                            <span id="esurname" class="error"></span>
+
+                            <div class="valid-feedback">
+                                <span class="validate">Apellidos válidos.</span>
+                            </div>
+                            <div class="invalid-feedback">
+                                <span class="novalidate">Rellene este campo.</span>
+                            </div>
+                        </div>
+                        <!-- Box apellidos -->
+
+                        <!-- Box localidad -->
+                        <div class="form-group">
+                            <label for="location">Localidad:</label>
+                            <input type="text" class="form-control" id="location" placeholder="Localidad" minlength="5" maxlength="15" required>
+                            <span id="elocation" class="error"></span>
+
+                            <div class="valid-feedback">
+                                <span class="validate">Localidad válida.</span>
+                            </div>
+                            <div class="invalid-feedback">
+                                <span class="novalidate">Rellene este campo.</span>
+                            </div>
+                        </div>
+                        <!-- Box localidad -->
+
+                        <!-- Box codigo postal -->
+                        <div class="form-group">
+                            <label for="code">Código postal:</label>
+                            <input type="text" class="form-control" id="code" placeholder="Código postal" required>
+                            <span id="ecode" class="error"></span>
+
+                            <div class="valid-feedback">
+                                <span class="validate">Código postal válido.</span>
+                            </div>
+                            <div class="invalid-feedback">
+                                <span class="novalidate">Rellene este campo.</span>
+                            </div>
+                        </div>
+                        <!-- Box codigo postal -->
+                    </div>
+                    <!-- Bloque izquierda-derecha -->
+
+                </div>
+            </div>
+            <!-- Bloque izquierda -->
+
+            <!-- Bloque derecha -->
+            <div class="col-lg-4 col-md-10 ">
+                <h3 class="d-flex mb-2 mt-lg-0 mt-md-3 mt-sm-4" >Datos bancarios</h3>
+                <div class="col-12 mx-auto">
+
+                    <!-- Box tarjeta crédito -->
+                    <div class="form-group">
+                        <label for="credit">Tarjeta crédito:</label>
+                        <input type="text" class="form-control" id="credit" placeholder="Nº tarjeta" required>
+                        <span id="ecredit" class="error"></span>
+
+                        <div class="valid-feedback">
+                            <span class="validate">Nº tarjeta válido.</span>
+                        </div>
+                        <div class="invalid-feedback">
+                            <span class="novalidate">Rellene este campo.</span>
+                        </div>
+                    </div>
+                    <!-- Box tarjeta crédito -->
+
+                    <!-- Box fecha -->
+                    <div class="form-group">
+                        <label for="date">Fecha de validez:</label>
+                        <input type="date" class="form-control" id="date" required>
+                        <span id="edate" class="error"></span>
+
+                        <div class="valid-feedback">
+                            <span class="validate">Fecha válida.</span>
+                        </div>
+                        <div class="invalid-feedback">
+                            <span class="novalidate">Rellene este campo.</span>
+                        </div>
+                    </div>
+                    <!-- Box fecha -->
+
+                    <!-- Box codeCV -->
+                    <div class="form-group">
+                        <label for="codeCV">Código de seguridad:</label>
+                        <input type="text" class="form-control" id="codeCV" placeholder="Código" required>
+                        <span id="ecodeCV" class="error"></span>
+
+                        <div class="valid-feedback">
+                            <span class="validate">CV válido.</span>
+                        </div>
+                        <div class="invalid-feedback">
+                            <span class="novalidate">Rellene este campo.</span>
+                        </div>
+                    </div>
+                    <!-- Box codeCV -->
+
+                </div>
+            </div>
+            <!-- Bloque derecha -->
+
+        </div>
+        <div class="d-flex justify-content-center mb-1 mt-4">
+            <button type="submit" onclick="return validate_buy()" class="btn btn-primary">Confirmar datos</button>
+        </div>
+    </section>
+</form>
+<!-- /CONTENIDO -->
+
+<!-- FOOTER -->
+<footer class="pt-4 bg-dark text-white myFooter pb-0 pt-2 mt-5">
+    <div class="offset-1 col-10">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <h4 class="mb-3">Contáctanos:</h4>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto border-white" style="width: 80px;">
+                    <div class="d-flex flex-row">
+                        <div class="flex-row">
+                            <p><i class="fas fa-map-marker mr-2"></i>
+                                C/Juan Perez Nº8 Las Palmas
+                            </p>
+                            <p><i class="far fa-clock mr-2"></i>
+                                08:00 - 16:00
+                            </p>
+                        </div>
+                        <div class="flex-row ml-4">
+                            <p><i class="fas fa-phone-alt mr-2"></i>
+                                +34 928765432 - 665437980
+                            </p>
+                            <p><i class="fas fa-envelope mr-2"></i>
+                                musicstore@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-md-2 col-md-4 col-xs-12">
+                    <h4 class="mb-3">Más sobre MusicStore:</h4>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto border-white" style="width: 100px;">
+                    <br>
+                    <span><i class="fab fa-instagram mr-2 h3 mx-2"></i>
+                    </span>
+                    <span><i class="fab fa-youtube h3 mx-2"></i>
+                    </span>
+                    <span><i class="fab fa-facebook h3 mx-2"></i>
+                    </span>
+                    <span><i class="fab fa-twitter h3 mx-2"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-secondary">
+        <div class="mx-auto" style="width:250px">
+            <span >Copyright <i class="far fa-copyright"></i> 2020 MusicStore</span>
+        </div>
+    </div>
+</footer>
+<!-- FOOTER -->
 
 </body>
 </html>
