@@ -165,10 +165,69 @@ function validate_register() {
 function validate_buy() {
 
     //Variables
+    var name = document.getElementById("name").value;
+    var surname = document.getElementById("surname").value;
+    var country = document.getElementById("country").value;
+    var location = document.getElementById("location").value;
+    var direction = document.getElementById("direction").value;
+    var code = document.getElementById("code").value;
     var email = document.getElementById("email").value;
     var credit = document.getElementById("credit").value;
     var codeCV = document.getElementById("codeCV").value;
     var flag = true;
+
+    //Validar nombre
+    var regex_name = /[A-Za-z]/;
+    if(regex_name.test(name) !== true && name.length < 3 || name.length > 10) {
+        document.getElementById("ename").innerHTML = "El nombre no debe tener caracteres numéricos " +
+            "y tiene que tener entre 3 y 10 caracteres";
+        flag = false;
+    } else{
+        document.getElementById("ename").innerHTML = "";
+    }
+
+    //Validar apellido
+    var regex_surname = /[A-Za-z]/;
+    if(regex_surname.test(surname) !== true && surname.length < 10 || surname.length > 20) {
+        document.getElementById("esurname").innerHTML = "Los apellidos no deben tener caracteres numéricos " +
+            "y tienen que tener entre 10 y 20 caracteres";
+        flag = false;
+    }else{
+        document.getElementById("esurname").innerHTML = "";
+    }
+
+    //Validar country
+    if(country.length < 5 || country.length > 15) {
+        document.getElementById("ecountry").innerHTML = "El pais tiene que tener entre 5 y 10 caracteres";
+        flag = false;
+    } else{
+        document.getElementById("ecountry").innerHTML = "";
+    }
+
+    //Validar location
+    if(location.length < 5 || location.length > 15) {
+        document.getElementById("elocation").innerHTML = "La localidad tiene que tener entre 5 y 10 caracteres";
+        flag = false;
+    } else{
+        document.getElementById("elocation").innerHTML = "";
+    }
+
+    //Validar direction
+    if(direction.length < 5 || direction.length > 15) {
+        document.getElementById("edirection").innerHTML = "La dirección tiene que tener entre 5 y 10 caracteres";
+        flag = false;
+    } else{
+        document.getElementById("edirection").innerHTML = "";
+    }
+
+    //Validar code
+    var regex_code = /[0-9]/;
+    if(regex_code.test(code) !== true) {
+        document.getElementById("ecode").innerHTML = "El código postal debe ser numérico";
+        flag = false;
+    } else{
+        document.getElementById("ecode").innerHTML = "";
+    }
 
     //Validar email
     var regex_email = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
