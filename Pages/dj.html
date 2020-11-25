@@ -12,32 +12,31 @@
     <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../dist/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../dist/css/custom.css">
+    <link rel="stylesheet" href="../dist/css/responsive.css">
 
-    <title>DJ</title>
+    <title>MusicStore</title>
 </head>
 <body class="container-fluid">
 
 <!-- CABECERA -->
-<header class="offset-1 col-10">
+<header class="offset-md-1 col-md-10 col-xs-12">
     <!-- Image and text -->
-    <div class="d-flex align-items-center">
+    <div class="d-flex flex-wrap align-items-center">
         <a class="my-3" href="#">
             <img src="../dist/img/logo.png" height="50" class="d-inline-block align-top" alt="" loading="lazy">
         </a>
-        <a class="mx-3" href="../index.html">
+        <a class="mx-3" href="#">
             <h1 id="Titulo" class="text-dark">
                 MusicStore
             </h1>
         </a>
-        <a class="text right d-flex ml-auto">
-            <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button type="button" class="btn btn-dark">Search</button>
-            </form>
-        </a>
+        <form class="form-inline text right d-flex ml-auto">
+            <input class="form-control mr-sm-2 mt-1" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-dark mt-1">Search</button>
+        </form>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-2">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,30 +46,30 @@
                     <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="guitar-bajos.html">Guitarras/Bajos <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/guitar-bajos.html">Guitarras/Bajos <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="percusion.html">Percusión <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/percusion.html">Percusión <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="teclados.html">Teclados <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/teclados.html">Teclados <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="iluminacion.html">Iluminación <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/iluminacion.html">Iluminación <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="dj.html">Dj <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/dj.html">Dj <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Log in <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/form.html">Log in <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Registrarse <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a class="nav-link" href="../Pages/carrito.html"><i class="fas fa-shopping-cart"></i></a>
                 </li>
             </ul>
         </div>
@@ -81,10 +80,40 @@
 <!-- CONTENIDO -->
 <div class="offset-1 col-10">
     <div class="d-flex justify-content-center mt-5 content">
-        <div class="col-sm-10">
-            <div id="carouselExampleIndicators" class="carousel slide w-75" data-ride="carousel">
-                <div class="carousel-inner">
+        <div class="col-sm-10 py-4">
+            <!--Controladores Dj-->
+            <div class="row">
+                <div class="col-md-4 col-xl-3 mb-3 text-center">
+                    <a href="#"><img src="../dist/img/Dj/controladores_dj.jpg" alt="imagen percusion" class="img-fluid rounded"></a>
+                </div>
+                <div class="col-md-8 col-xl-9">
+                    <h4>Controladores Dj</h4>
+                    <p>Bienvenidos a nuestra Guía Online acerca del tema de los DJ-Controllers.
+                        En las siguientes páginas queremos mostraros las DJ-Tools más conocidas y su forma de funcionamiento y prestaciones
+                        en las diferentes clases de producto, y presentaros algunos de los modelos más populares.</p>
+                    <a href="dj_controladores-list.html">Ver Controladores</a>
+                </div>
+            </div>
+            <!--COntroladores Dj-->
 
+            <!--Línea divisoria-->
+            <div class="col-md-12">
+                <hr>
+            </div>
+            <!--Línea divisoria-->
+
+            <!--Mezcladores Dj-->
+            <div class="row">
+                <div class="col-md-4 col-xl-3 mb-3 text-center">
+                    <a href="#"><img src="../dist/img/Dj/mesas_mezcla_Dj.jpg" alt="imagen percusion de orquesta" class="img-fluid rounded"></a>
+                </div>
+                <div class="col-md-8 col-xl-9">
+                    <h4>Mezcladores Dj</h4>
+                    <p>Bienvenido a nuestro Guía Online de Mezcladores para DJ.
+                        Ya seas un aficionado al vinilo o ya te hayas convertido a los CDs, un mezclador es la única cosa que debe incorporar una configuración para DJ.
+                        Esta guía echa un vistazo a los conceptos básicos de los mezcladores para DJ,
+                        los tipos más comunes del mercado, cómo conectarlos, y cómo la escena de mezcla de DJ está cambiando.</p>
+                    <a href="dj_mezcladores-list.html">Ver Mezcladores</a>
                 </div>
             </div>
         </div>
@@ -94,7 +123,7 @@
 
 <!-- FOOTER -->
 <footer class="pt-4 bg-dark text-white myFooter pb-0 pt-2 mt-5">
-    <div class="offset-1 col-10">
+    <div class="offset-md-1 col-md-10 col-xs-12">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-md-6">
@@ -141,7 +170,6 @@
     </div>
 </footer>
 <!-- FOOTER -->
-
 
 <!-- Optional JavaScript; choose one of the two! -->
 

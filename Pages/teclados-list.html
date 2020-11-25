@@ -12,65 +12,64 @@
     <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../dist/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../dist/css/custom.css">
+    <link rel="stylesheet" href="../dist/css/responsive.css">
 
-    <title>Teclados</title>
+    <title>MusicStore</title>
 </head>
 <body class="container-fluid">
 
 <!-- CABECERA -->
-<header class="offset-1 col-10">
+<header class="offset-md-1 col-md-10 col-xs-12">
     <!-- Image and text -->
-    <div class="d-flex align-items-center">
+    <div class="d-flex flex-wrap align-items-center">
         <a class="my-3" href="#">
             <img src="../dist/img/logo.png" height="50" class="d-inline-block align-top" alt="" loading="lazy">
         </a>
-        <a class="mx-3" href="../index.html">
+        <a class="mx-3" href="#">
             <h1 id="Titulo" class="text-dark">
                 MusicStore
             </h1>
         </a>
-        <a class="text right d-flex ml-auto">
-            <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button type="button" class="btn btn-dark">Search</button>
-            </form>
-        </a>
+        <form class="form-inline text right d-flex ml-auto">
+            <input class="form-control mr-sm-2 mt-1" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-dark mt-1">Search</button>
+        </form>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-2">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
+                <li class="nav-item ">
                     <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="guitar-bajos.html">Guitarras/Bajos <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/guitar-bajos.html">Guitarras/Bajos <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="percusion.html">Percusión <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/percusion.html">Percusión <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="teclados.html">Teclados <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/teclados.html">Teclados <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="iluminacion.html">Iluminación <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/iluminacion.html">Iluminación <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="dj.html">Dj <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/dj.html">Dj <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Log in <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/form.html">Log in <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Registrarse <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a class="nav-link" href="../Pages/carrito.html"><i class="fas fa-shopping-cart"></i></a>
                 </li>
             </ul>
         </div>
@@ -79,85 +78,82 @@
 <!-- /CABECERA -->
 
 <!-- CONTENIDO -->
-<div class="offset-1 col-10">
+<section class="offset-1 col-10">
     <div class="d-flex justify-content-center mt-5 content">
-        <div class="col-sm-10">
+        <div class="col-sm-10 py-4">
 
-            <!--Producto 1-->
-            <div class="d-flex">
-                <div class="imagenes">
-                    <picture>
-                        <img src="../dist/img/teclados/teclados1.PNG" alt="imagen-teclado1" width="250" vspace="10">
-                    </picture>
+            <div class="row">
+                <!-- Producto 1-->
+                <div class="col-xl-6 col-md-12">
+                    <div class="row">
+                        <div class="col-md-4 mb-3 text-center">
+                            <img src="../dist/img/teclados/teclados1.PNG" alt="imagen-guitarra1" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-8">
+                            <h3>Arturia Keystep Pro</h3>
 
-                    <div class="align-items-center boton">
-                        <button onclick="">Añadir al carrito</button>
+                            <ul class="text-left m-1">
+                                <li>37 notas teclas delgadas</li>
+                                <li>Velocidad y aftertouch sensibles</li>
+                                <li>LED encima de cada tecla para una realimentación visual eficiente</li>
+                                <span><a href="#">Más información</a></span>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4 text-center mt-3">
+                            <div class="alert alert-dark p-2 my-auto">
+                                <h5 class="my-auto"> Precio: 579€</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8 text-center mt-3">
+                            <button onclick="" class="btn btn-dark">Añadir al carrito</button>
+                        </div>
                     </div>
                 </div>
 
-                <div class="text-center m-3 titulo-producto">
-                    <h4 class="text-left">Arturia Keystep Pro</h4>
-                    <div class="precio">
-                        <span class="precio">Precio: 579€</span>
-                    </div>
-
-                    <ul class="text-left m-1">
-                        <li>37 notas teclas delgadas</li>
-                        <li>Velocidad y aftertouch sensibles</li>
-                        <li>LED encima de cada tecla para una realimentación visual eficiente</li>
-                    </ul>
-                    <div class="text-left mt-3 enlace">
-                        <a href="#">Más información</a>
-                    </div>
-
-                </div>
-            </div>
-            <!--Producto 1-->
-
-            <!--Línea divisoria-->
-            <div class="linea1">
-                <hr>
-            </div>
-            <!--Línea divisoria-->
-
-            <!--Prodcuto 2-->
-            <div class="d-flex">
-                <div class="imagenes">
-                    <picture>
-                        <img src="../dist/img/teclados/teclados2.PNG" alt="imagen-teclado2" width="250" vspace="10">
-                    </picture>
-
-                    <div class="align-items-center boton mb-2">
-                        <button onclick="">Añadir al carrito</button>
-                    </div>
+                <!-- Linea divisoria -->
+                <div class="col-md-12 d-xl-none">
+                    <hr>
                 </div>
 
-                <div class="text-center m-3 titulo-producto">
-                    <h4 class="text-left">Novation Launchkey 37 MK3</h4>
-                    <div class="precio">
-                        <span class="precio">Precio: 177€</span>
-                    </div>
-                    <ul class="text-left m-1">
-                        <li>37 teclas sensibles a la velocidad</li>
-                        <li>16 Pads sensibles con iluminación RGB</li>
-                        <li>Modos Scale y Chord</li>
-                    </ul>
-                    <div class="text-left mt-3 enlace">
-                        <a href="#">Más información</a>
-                    </div>
+                <!-- Producto 2 -->
+                <div class="col-xl-6 col-md-12">
+                    <div class="row">
+                        <div class="col-md-4 mb-3 text-center">
+                            <img src="../dist/img/teclados/teclados2.PNG" alt="imagen-guitarra2" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-8">
+                            <h3>Novation Launchkey 37 MK3</h3>
+                            <ul class="text-left m-1">
+                                <li>37 teclas sensibles a la velocidad</li>
+                                <li>16 Pads sensibles con iluminación RGB</li>
+                                <li>Modos Scale y Chord</li>
+                                <span><a href="#">Más información</a></span>
+                            </ul>
+                        </div>
 
+                        <div class="col-md-4 text-center mt-3">
+                            <div class="alert alert-dark p-2 my-auto">
+                                <h5 class="my-auto"> Precio: 177€</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8 text-center mt-3">
+                            <button onclick="" class="btn btn-dark">Añadir al carrito</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!--Prodcuto 2-->
 
         </div>
     </div>
-</div>
+</section>
 <!-- /CONTENIDO -->
 
 <!-- FOOTER -->
 <footer class="pt-4 bg-dark text-white myFooter pb-0 pt-2 mt-5">
-    <div class="offset-1 col-10">
+    <div class="offset-md-1 col-md-10 col-xs-12">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-md-6">
@@ -204,7 +200,6 @@
     </div>
 </footer>
 <!-- FOOTER -->
-
 
 <!-- Optional JavaScript; choose one of the two! -->
 

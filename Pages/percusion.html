@@ -12,65 +12,64 @@
     <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../dist/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../dist/css/custom.css">
+    <link rel="stylesheet" href="../dist/css/responsive.css">
 
-    <title>Percusión</title>
+    <title>MusicStore</title>
 </head>
 <body class="container-fluid">
 
 <!-- CABECERA -->
-<header class="offset-1 col-10">
+<header class="offset-md-1 col-md-10 col-xs-12">
     <!-- Image and text -->
-    <div class="d-flex align-items-center">
+    <div class="d-flex flex-wrap align-items-center">
         <a class="my-3" href="#">
             <img src="../dist/img/logo.png" height="50" class="d-inline-block align-top" alt="" loading="lazy">
         </a>
-        <a class="mx-3" href="../index.html">
+        <a class="mx-3" href="#">
             <h1 id="Titulo" class="text-dark">
                 MusicStore
             </h1>
         </a>
-        <a class="text right d-flex ml-auto">
-            <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button type="button" class="btn btn-dark">Search</button>
-            </form>
-        </a>
+        <form class="form-inline text right d-flex ml-auto">
+            <input class="form-control mr-sm-2 mt-1" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-dark mt-1">Search</button>
+        </form>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-2">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
+                <li class="nav-item ">
                     <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="guitar-bajos.html">Guitarras/Bajos <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/guitar-bajos.html">Guitarras/Bajos <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="percusion.html">Percusión <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/percusion.html">Percusión <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="teclados.html">Teclados <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/teclados.html">Teclados <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="iluminacion.html">Iluminación <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/iluminacion.html">Iluminación <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="dj.html">Dj <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/dj.html">Dj <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Log in <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Pages/form.html">Log in <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Registrarse <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a class="nav-link" href="../Pages/carrito.html"><i class="fas fa-shopping-cart"></i></a>
                 </li>
             </ul>
         </div>
@@ -81,45 +80,34 @@
 <!-- CONTENIDO -->
 <div class="offset-1 col-10">
     <div class="d-flex justify-content-center mt-5 content">
-        <div class="col-sm-10">
-
-            <!--Percusión-->
-            <div class="d-flex">
-                <div class="imagenes">
-                    <picture>
-                        <a href="percusion-list.html"><img src="../dist/img/percusion/percusion.PNG" alt="imagen percusion" width="180" vspace="10"></a>
-                    </picture>
+        <div class="col-sm-10 py-4">
+            <div class="row">
+                <div class="col-md-4 col-xl-3 mb-3 text-center">
+                <a href="percusion-list.html"><img src="../dist/img/percusion/percusion.PNG" alt="imagen percusion" class="img-fluid rounded"></a>
                 </div>
-
-                <div class="text-center m-3 titulo-producto">
+                <div class="col-md-8 col-xl-9">
                     <h4>Percusión</h4>
                     <p>Bienvenido a nuestra Guía Online sobre instrumentos de percusión. La percusión
                         se distingue por la variedad de timbres que es capaz de producir y por su facilidad
                         de adaptación con otros instrumentos musicales. Cabe destacar que puede obtenerse
                         una gran variedad de sonidos según las baquetas o mazos que se usan para golpear
                         algunos de los instrumentos de percusión</p>
-                    <div class="mt-5 enlace">
-                        <a href="percusion-list.html">Guía percusión</a>
-                    </div>
+                    <a href="percusion-list.html">Ver percusión</a>
                 </div>
             </div>
-            <!--Percusión-->
 
             <!--Línea divisoria-->
-            <div class="linea1">
+            <div class="col-md-12">
                 <hr>
             </div>
             <!--Línea divisoria-->
 
-            <!--Percusión de orquesta-->
-            <div class="d-flex">
-                <div class="imagenes">
-                    <picture>
-                        <a href="orquesta-list.html"><img src="../dist/img/percusion/orquesta.PNG" alt="imagen percusion de orquesta" height="250" width="180" vspace="10"></a>
-                    </picture>
+            <!--Percusion Orquesta-->
+            <div class="row">
+                <div class="col-md-4 col-xl-3 mb-3 text-center">
+                    <a href="orquesta-list.html"><img src="../dist/img/percusion/orquesta.PNG" alt="imagen percusion de orquesta" class="img-fluid rounded"></a>
                 </div>
-
-                <div class="text-center m-3 titulo-producto">
+                <div class="col-md-8 col-xl-9">
                     <h4>Percusion de orquesta</h4>
                     <p>Bienvenido a nuestra Guía Online sobre instrumentos de percusión de orquesta.
                         Así que que has decidido aficionarte a los instrumentos de percusión de
@@ -127,13 +115,9 @@
                         mucha diversión. Y cuanto más te hagas con cada uno de los instrumentos,
                         mayor será tu diversión con sus sonidos. Porque además el comienzo con
                         los instrumentos de percusión es precisamente de los más sencillos.</p>
-                    <div class="mt-5 enlace">
-                        <a href="orquesta-list.html">Guía percusión de orquesta</a>
-                    </div>
+                    <a href="orquesta-list.html">Ver percusión de orquesta</a>
                 </div>
             </div>
-            <!--Percusión de orquesta-->
-
         </div>
     </div>
 </div>
@@ -141,7 +125,7 @@
 
 <!-- FOOTER -->
 <footer class="pt-4 bg-dark text-white myFooter pb-0 pt-2 mt-5">
-    <div class="offset-1 col-10">
+    <div class="offset-md-1 col-md-10 col-xs-12">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-md-6">
@@ -188,7 +172,6 @@
     </div>
 </footer>
 <!-- FOOTER -->
-
 
 <!-- Optional JavaScript; choose one of the two! -->
 
