@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<instrumentos>
+    <guitarra>
+        <name>../dist/img/guitarras-bajos/guitarra-electrica-1.PNG</name>
+    </guitarra>
+    <guitarra>
+        <name>../dist/img/guitarras-bajos/guitarra-electrica-2.PNG</name>
+    </guitarra>
+</instrumentos>
