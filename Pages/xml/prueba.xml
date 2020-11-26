@@ -1,9 +1,262 @@
 <?xml version="1.0" ?>
 <instrumentos>
-    <guitarra>
-        <name>../dist/img/guitarras-bajos/guitarra-electrica-1.PNG</name>
-    </guitarra>
-    <guitarra>
-        <name>../dist/img/guitarras-bajos/guitarra-electrica-2.PNG</name>
-    </guitarra>
+    <!-- Guitarras-bajos -->
+    <!-- Guitarras -->
+    <producto>
+        <tipo>guitarra</tipo>
+        <nombre>Harley Benton ST-20 BK Standard Series</nombre>
+        <imagen>../dist/img/guitarras-bajos/guitarra-electrica-1.PNG</imagen>
+        <precio>230€</precio>
+        <descripcion1>Escala corta</descripcion1>
+        <descripcion2>Mástil atornillado</descripcion2>
+        <descripcion3>Cuerpo de tilo</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <producto>
+        <tipo>guitarra</tipo>
+        <nombre>Harley Benton WL-20BK Rock Series</nombre>
+        <imagen>../dist/img/guitarras-bajos/guitarra-electrica-2.PNG</imagen>
+        <precio>109€</precio>
+        <descripcion1>Rock Series</descripcion1>
+        <descripcion2>Cuerpo de tilo</descripcion2>
+        <descripcion3>Diapasón de amaranto con inlays de puntos</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <!-- /Guitarras -->
+
+    <!-- Bajos -->
+    <producto>
+        <tipo>bajo</tipo>
+        <nombre>Harley Benton B-25M Acoustic Bass</nombre>
+        <imagen>../dist/img/guitarras-bajos/bajos-1.PNG</imagen>
+        <precio>125€</precio>
+        <descripcion1>Cuerpo de caoba</descripcion1>
+        <descripcion2>Golpeador de carey</descripcion2>
+        <descripcion3>Herrajes de cromo</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <producto>
+        <tipo>bajo</tipo>
+        <nombre>Fender CB-60SCE A-Bass Natural IL</nombre>
+        <imagen>../dist/img/guitarras-bajos/bajos-2.PNG</imagen>
+        <precio>379€</precio>
+        <descripcion1>Modelo con Cutaway</descripcion1>
+        <descripcion2>Tapa de pícea maciza</descripcion2>
+        <descripcion3>Diapasón de laurel indio</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <!-- /Bajos -->
+    <!-- /Guitarras-bajos -->
+
+    <!-- Percusion-Orquesta -->
+    <!-- Percusion -->
+    <producto>
+        <tipo>percusion</tipo>
+        <nombre>Gewa Fingercymbals</nombre>
+        <imagen>../dist/img/percusion/percusion1.PNG</imagen>
+        <precio>5,80€</precio>
+        <descripcion1>Escala corta</descripcion1>
+        <descripcion2>Mástil atornillado</descripcion2>
+        <descripcion3>Cuerpo de tilo</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <producto>
+        <tipo>percusion</tipo>
+        <nombre>LP CP374 Sleigh Bells</nombre>
+        <imagen>../dist/img/percusion/percusion2.PNG</imagen>
+        <precio>109€</precio>
+        <descripcion1>25 cascabeles unidos a tiras de tela</descripcion1>
+        <descripcion2>Montadas en un mango de madera</descripcion2>
+        <descripcion3>Forma ergonómica</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <!-- /Percusion -->
+
+    <!-- Orquesta -->
+    <producto>
+        <tipo>orquesta</tipo>
+        <nombre>LP 793X Galaxy Giovanni Bongo Set</nombre>
+        <imagen>../dist/img/percusion/orquesta1.PNG</imagen>
+        <precio>357€</precio>
+        <descripcion1>Diámetros: 7 1/4" + 8 5/8"</descripcion1>
+        <descripcion2>Color: Natur</descripcion2>
+        <descripcion3>Altura: 17cm</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <producto>
+        <tipo>orquesta</tipo>
+        <nombre>LP M201 Bongos Matador</nombre>
+        <imagen>../dist/img/percusion/orquesta2.PNG</imagen>
+        <precio>172€</precio>
+        <descripcion1>Matador Serie</descripcion1>
+        <descripcion2>Diámetros: 7 1/4" + 8 5/8"</descripcion2>
+        <descripcion3>Color: Dark Brown</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <!-- /Orquesta -->
+    <!-- /Percusion-Orquesta -->
+
+    <!-- Teclado-Piano -->
+    <!-- Teclado -->
+    <producto>
+        <tipo>teclado</tipo>
+        <nombre>Arturia Keystep Pro</nombre>
+        <imagen>../dist/img/teclados/teclados1.PNG</imagen>
+        <precio>579€</precio>
+        <descripcion1>37 notas teclas delgadas</descripcion1>
+        <descripcion2>Velocidad y aftertouch sensibles</descripcion2>
+        <descripcion3>LED encima de cada tecla para una realimentación visual eficiente</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <producto>
+        <tipo>teclado</tipo>
+        <nombre>Novation Launchkey 37 MK3</nombre>
+        <imagen>../dist/img/teclados/teclados2.PNG</imagen>
+        <precio>177€</precio>
+        <descripcion1>37 teclas sensibles a la velocidad</descripcion1>
+        <descripcion2>16 Pads sensibles con iluminación RGB</descripcion2>
+        <descripcion3>Modos Scale y Chord</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <!-- /Teclado -->
+
+    <!-- Piano -->
+    <producto>
+        <tipo>piano</tipo>
+        <nombre>Roth Junius RJGP 186 WH/P Grand Piano</nombre>
+        <imagen>../dist/img/teclados/piano1.PNG</imagen>
+        <precio>8.290€</precio>
+        <descripcion1>Acabado: Blanco Pulido</descripcion1>
+        <descripcion2>Cuerdas Röslau</descripcion2>
+        <descripcion3>7 1/4 octavas</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <producto>
+        <tipo>piano</tipo>
+        <nombre>Roth Junius RJGP 186 E/P Grand Piano</nombre>
+        <imagen>../dist/img/teclados/piano2.PNG</imagen>
+        <precio>7.798€</precio>
+        <descripcion1>Color: Negro pulido</descripcion1>
+        <descripcion2>banqueta incluida</descripcion2>
+        <descripcion3>Octavas: 7 1/4</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <!-- /piano -->
+    <!-- /Teclado-Piano -->
+
+    <!-- Iluminacion-Proyectores -->
+    <!-- Iluminacion -->
+    <producto>
+        <tipo>iluminacion</tipo>
+        <nombre>MA Lightning grandMA3 onPC Command Wing</nombre>
+        <imagen>../dist/img/iluminacion/iluminacion_consola1.jpg</imagen>
+        <precio>5.699€</precio>
+        <descripcion1>Control a tiempo real de hasta 2.048 parámetros en combinación con las consolas grandMA3 onPC Software</descripcion1>
+        <descripcion2>Expansible hasta 4.096 parámetros</descripcion2>
+        <descripcion3>Diseño de la sección de comandos idéntico al de los modelos grandMA3 compact</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <producto>
+        <tipo>iluminacion</tipo>
+        <nombre>ChamSys QuickQ 10</nombre>
+        <imagen>../dist/img/iluminacion/iluminacion-consola2.jpg</imagen>
+        <precio>1.899€</precio>
+        <descripcion1>Interfaz de usuario rápido y sencillo que precisa poco tiempo de configuración y aprendizaje</descripcion1>
+        <descripcion2>Pantalla táctil de 9,7 pulgadas</descripcion2>
+        <descripcion3>Amplia sección de funciones</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <!-- /Iluminacion -->
+
+    <!-- Proyectores -->
+    <producto>
+        <tipo>proyector</tipo>
+        <nombre>Fun Generation SePar Hex LED RGBAW UV IR</nombre>
+        <imagen>../dist/img/iluminacion/iluminacion-proyector1.jpg</imagen>
+        <precio>59€</precio>
+        <descripcion1>Fuente de luz: 5 piezas LED RGBAW+UV 6 en 1 de 8W</descripcion1>
+        <descripcion2>Ángulo del haz: 20º</descripcion2>
+        <descripcion3>Control DMX 512 (6/8/10 canales)</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <producto>
+        <tipo>proyector</tipo>
+        <nombre>Stairville BEL6 Tourpack 6</nombre>
+        <imagen>../dist/img/iluminacion/iluminacion-proyector2.jpg</imagen>
+        <precio>1.735€</precio>
+        <descripcion1>Fuente de luz: 6 LEDs RGBAW UV de 15W</descripcion1>
+        <descripcion2>Ángulo del haz: 20º</descripcion2>
+        <descripcion3>Control: DMX (6/10 canales), DMX inalámbrico (Wireless Solution G5), maestro/esclavo, cambio automático y programas de desvanecimiento, colores</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <!-- /Proyectores -->
+    <!-- /Iluminacion-Proyectores -->
+
+    <!-- Controladores-Mezcladores -->
+    <!-- Controladores -->
+    <producto>
+        <tipo>controlador</tipo>
+        <nombre>Hercules DJ Control Inpulse 300</nombre>
+        <imagen>../dist/img/dj/dj_controlador1.jpg</imagen>
+        <precio>144€</precio>
+        <descripcion1>Controlador de 2 Decks</descripcion1>
+        <descripcion2>Beatmatch-Guide</descripcion2>
+        <descripcion3>Intelligent Music Assist</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <producto>
+        <tipo>controlador</tipo>
+        <nombre>Denon DJ Prime GO</nombre>
+        <imagen>../dist/img/dj/dj_controlador2.jpg</imagen>
+        <precio>990€</precio>
+        <descripcion1>Fully-fledged 2-deck DJ console that fits in the backpack</descripcion1>
+        <descripcion2>1 x USB and 1 x SD media connections</descripcion2>
+        <descripcion3>7" Touchscreen with gesture contro</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <!-- /Controladores -->
+
+    <!-- Mezcladores -->
+    <producto>
+        <tipo>mezclador</tipo>
+        <nombre>Rane Seventy Battle Mixer</nombre>
+        <imagen>../dist/img/dj/dj-mezclador1.jpg</imagen>
+        <precio>1.550€</precio>
+        <descripcion1>2 Canales de Linea</descripcion1>
+        <descripcion2>Serato DJ effect control</descripcion2>
+        <descripcion3>285 x 445 x 105 mm</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <producto>
+        <tipo>mezclador</tipo>
+        <nombre>Behringer DX2000USB</nombre>
+        <imagen>../dist/img/dj/dj_mezclador2.jpg</imagen>
+        <precio>235€</precio>
+        <descripcion1>7 canales</descripcion1>
+        <descripcion2>LED de Ganancia/Clip</descripcion2>
+        <descripcion3>Alimentación phantom</descripcion3>
+        <enlace>Más información</enlace>
+        <boton>Añadir al carrito</boton>
+    </producto>
+    <!-- /Mezcladores -->
+    <!-- /Controladores-Mezcladores -->
 </instrumentos>
