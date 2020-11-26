@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<instrumentos>
+    <!-- Guitarras-bajos -->
+    <producto>
+        <id>1</id>
+        <tipo>guitarra-bajo</tipo>
+        <nombre>Guitarras eléctricas</nombre>
+        <imagen>../dist/img/guitarras-bajos/guitarra-electrica.PNG</imagen>
+        <descripcion>Bienvenido a nuestra Guía Online de Guitarras Eléctricas.
+            En las páginas siguientes se va a dar una visión general de los modelos básicos,
+            las diversas situaciones profesionales en las que se utilizan diferentes guitarras,
+            así como proporcionarte más información general acerca del propio instrumento y los
+            mejores accesorios de su clase.</descripcion>
+        <enlace>Ver guitarras eléctricas</enlace>
+    </producto>
+
+    <producto>
+        <id>1</id>
+        <tipo>guitarra-bajo</tipo>
+        <nombre>Bajos</nombre>
+        <imagen>../dist/img/guitarras-bajos/bajos.PNG</imagen>
+        <descripcion>El bajo es un instrumento fundamental en prácticamente todos los estilos
+            de música popular, ayudando a precisar tanto groove como armonía. En las siguientes
+            páginas vamos a tratar de darte una visión completa del bajo y todos sus componentes,
+            desde los instrumentos clásicos a los modernos.</descripcion>
+        <enlace>Ver bajos</enlace>
+    </producto>
+    <!-- /Guitarras-bajos -->
+
+    <!-- Percusion-orquesta -->
+    <producto>
+        <tipo>percusion-orquesta</tipo>
+        <nombre>Percusión</nombre>
+        <imagen>../dist/img/percusion/percusion.PNG</imagen>
+        <descripcion>Escala corta</descripcion>
+        <enlace>Ver percusión</enlace>
+    </producto>
+
+    <producto>
+        <tipo>percusion-orquesta</tipo>
+        <nombre>Percusión de orquesta</nombre>
+        <imagen>../dist/img/percusion/orquesta.PNG</imagen>
+        <descripcion>Escala corta</descripcion>
+        <enlace>Ver percusión de orquesta</enlace>
+    </producto>
+    <!-- /Percusion-orquesta -->
+
+    <!-- Teclado-piano -->
+    <producto>
+        <tipo>teclado-piano</tipo>
+        <nombre>Teclados</nombre>
+        <imagen>../dist/img/</imagen>
+        <descripcion>Bienvenido a nuestro Asesor Online para Teclados Controladores.
+            En las siguientes páginas se ofrece una visión general de las principales funciones
+            de los teclados controladores, y los principales tipos disponibles.</descripcion>
+        <enlace>Ver teclados</enlace>
+    </producto>
+
+    <producto>
+        <tipo>teclado-piano</tipo>
+        <nombre>Pianos</nombre>
+        <imagen>../dist/img/</imagen>
+        <descripcion>Bienvenido a nuestra Guía Online de Pianos. Los pianos son una gran opción
+            para cualquier persona, desde un principiante a un músico profesional que da conciertos.
+            En esta guía, vamos a tratar de darte la información que necesitas para que puedas elegir
+            el más adecuado para ti.</descripcion>
+        <enlace>Ver pianos</enlace>
+    </producto>
+    <!-- /Teclado-piano -->
+
+    <!-- Iluminacion-proyector -->
+    <producto>
+        <tipo>iluminacion-proyector</tipo>
+        <nombre>Harley Benton ST-20 BK Standard Series</nombre>
+        <imagen>../dist/img/guitarras-bajos/guitarra-electrica-1.PNG</imagen>
+        <descripcion>Escala corta</descripcion>
+        <enlace></enlace>
+    </producto>
+    <!-- /Iluminacion-proyector -->
+
+    <!-- Controlador-mezclador -->
+    <producto>
+        <tipo>controlador-mezclador</tipo>
+        <nombre>Harley Benton ST-20 BK Standard Series</nombre>
+        <imagen>../dist/img/guitarras-bajos/guitarra-electrica-1.PNG</imagen>
+        <descripcion>Escala corta</descripcion>
+        <enlace>Más información</enlace>
+    </producto>
+    <!-- /Controlador-mezclador -->
+</instrumentos>

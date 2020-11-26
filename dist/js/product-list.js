@@ -1,7 +1,7 @@
 $(document).ready(function (){
 
     $.ajax( {
-        url: "../Pages/xml/prueba.xml",
+        url: "../Pages/xml/instrumentos-list.xml",
         cache: false,
         dataType: "xml",
         success: function (xml) {
