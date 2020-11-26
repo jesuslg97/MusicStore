@@ -3,6 +3,7 @@
     <!-- Guitarras-bajos -->
     <!-- Guitarras -->
     <producto>
+        <id>1</id>
         <tipo>guitarra</tipo>
         <nombre>Harley Benton ST-20 BK Standard Series</nombre>
         <imagen>../dist/img/guitarras-bajos/guitarra-electrica-1.PNG</imagen>
@@ -14,6 +15,7 @@
         <boton>Añadir al carrito</boton>
     </producto>
     <producto>
+        <id>1</id>
         <tipo>guitarra</tipo>
         <nombre>Harley Benton WL-20BK Rock Series</nombre>
         <imagen>../dist/img/guitarras-bajos/guitarra-electrica-2.PNG</imagen>
@@ -28,6 +30,7 @@
 
     <!-- Bajos -->
     <producto>
+        <id>2</id>
         <tipo>bajo</tipo>
         <nombre>Harley Benton B-25M Acoustic Bass</nombre>
         <imagen>../dist/img/guitarras-bajos/bajos-1.PNG</imagen>
@@ -39,6 +42,7 @@
         <boton>Añadir al carrito</boton>
     </producto>
     <producto>
+        <id>2</id>
         <tipo>bajo</tipo>
         <nombre>Fender CB-60SCE A-Bass Natural IL</nombre>
         <imagen>../dist/img/guitarras-bajos/bajos-2.PNG</imagen>
@@ -55,6 +59,7 @@
     <!-- Percusion-Orquesta -->
     <!-- Percusion -->
     <producto>
+        <id>3</id>
         <tipo>percusion</tipo>
         <nombre>Gewa Fingercymbals</nombre>
         <imagen>../dist/img/percusion/percusion1.PNG</imagen>
@@ -66,6 +71,7 @@
         <boton>Añadir al carrito</boton>
     </producto>
     <producto>
+        <id>3</id>
         <tipo>percusion</tipo>
         <nombre>LP CP374 Sleigh Bells</nombre>
         <imagen>../dist/img/percusion/percusion2.PNG</imagen>
@@ -80,6 +86,7 @@
 
     <!-- Orquesta -->
     <producto>
+        <id>4</id>
         <tipo>orquesta</tipo>
         <nombre>LP 793X Galaxy Giovanni Bongo Set</nombre>
         <imagen>../dist/img/percusion/orquesta1.PNG</imagen>
@@ -91,6 +98,7 @@
         <boton>Añadir al carrito</boton>
     </producto>
     <producto>
+        <id>4</id>
         <tipo>orquesta</tipo>
         <nombre>LP M201 Bongos Matador</nombre>
         <imagen>../dist/img/percusion/orquesta2.PNG</imagen>
@@ -107,6 +115,7 @@
     <!-- Teclado-Piano -->
     <!-- Teclado -->
     <producto>
+        <id>5</id>
         <tipo>teclado</tipo>
         <nombre>Arturia Keystep Pro</nombre>
         <imagen>../dist/img/teclados/teclados1.PNG</imagen>
@@ -118,6 +127,7 @@
         <boton>Añadir al carrito</boton>
     </producto>
     <producto>
+        <id>5</id>
         <tipo>teclado</tipo>
         <nombre>Novation Launchkey 37 MK3</nombre>
         <imagen>../dist/img/teclados/teclados2.PNG</imagen>
@@ -132,6 +142,7 @@
 
     <!-- Piano -->
     <producto>
+        <id>6</id>
         <tipo>piano</tipo>
         <nombre>Roth Junius RJGP 186 WH/P Grand Piano</nombre>
         <imagen>../dist/img/teclados/piano1.PNG</imagen>
@@ -143,6 +154,7 @@
         <boton>Añadir al carrito</boton>
     </producto>
     <producto>
+        <id>6</id>
         <tipo>piano</tipo>
         <nombre>Roth Junius RJGP 186 E/P Grand Piano</nombre>
         <imagen>../dist/img/teclados/piano2.PNG</imagen>
@@ -159,6 +171,7 @@
     <!-- Iluminacion-Proyectores -->
     <!-- Iluminacion -->
     <producto>
+        <id>7</id>
         <tipo>iluminacion</tipo>
         <nombre>MA Lightning grandMA3 onPC Command Wing</nombre>
         <imagen>../dist/img/iluminacion/iluminacion_consola1.jpg</imagen>
@@ -170,6 +183,7 @@
         <boton>Añadir al carrito</boton>
     </producto>
     <producto>
+        <id>7</id>
         <tipo>iluminacion</tipo>
         <nombre>ChamSys QuickQ 10</nombre>
         <imagen>../dist/img/iluminacion/iluminacion-consola2.jpg</imagen>
@@ -184,6 +198,7 @@
 
     <!-- Proyectores -->
     <producto>
+        <id>8</id>
         <tipo>proyector</tipo>
         <nombre>Fun Generation SePar Hex LED RGBAW UV IR</nombre>
         <imagen>../dist/img/iluminacion/iluminacion-proyector1.jpg</imagen>
@@ -195,6 +210,7 @@
         <boton>Añadir al carrito</boton>
     </producto>
     <producto>
+        <id>8</id>
         <tipo>proyector</tipo>
         <nombre>Stairville BEL6 Tourpack 6</nombre>
         <imagen>../dist/img/iluminacion/iluminacion-proyector2.jpg</imagen>
@@ -211,6 +227,7 @@
     <!-- Controladores-Mezcladores -->
     <!-- Controladores -->
     <producto>
+        <id>9</id>
         <tipo>controlador</tipo>
         <nombre>Hercules DJ Control Inpulse 300</nombre>
         <imagen>../dist/img/dj/dj_controlador1.jpg</imagen>
@@ -222,6 +239,7 @@
         <boton>Añadir al carrito</boton>
     </producto>
     <producto>
+        <id>9</id>
         <tipo>controlador</tipo>
         <nombre>Denon DJ Prime GO</nombre>
         <imagen>../dist/img/dj/dj_controlador2.jpg</imagen>
@@ -236,6 +254,7 @@
 
     <!-- Mezcladores -->
     <producto>
+        <id>10</id>
         <tipo>mezclador</tipo>
         <nombre>Rane Seventy Battle Mixer</nombre>
         <imagen>../dist/img/dj/dj-mezclador1.jpg</imagen>
@@ -247,6 +266,7 @@
         <boton>Añadir al carrito</boton>
     </producto>
     <producto>
+        <id>10</id>
         <tipo>mezclador</tipo>
         <nombre>Behringer DX2000USB</nombre>
         <imagen>../dist/img/dj/dj_mezclador2.jpg</imagen>

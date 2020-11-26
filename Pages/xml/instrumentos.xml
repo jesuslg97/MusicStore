@@ -15,7 +15,7 @@
     </producto>
 
     <producto>
-        <id>1</id>
+        <id>2</id>
         <tipo>guitarra-bajo</tipo>
         <nombre>Bajos</nombre>
         <imagen>../dist/img/guitarras-bajos/bajos.PNG</imagen>
@@ -29,27 +29,39 @@
 
     <!-- Percusion-orquesta -->
     <producto>
+        <id>3</id>
         <tipo>percusion-orquesta</tipo>
         <nombre>Percusión</nombre>
         <imagen>../dist/img/percusion/percusion.PNG</imagen>
-        <descripcion>Escala corta</descripcion>
+        <descripcion>Bienvenido a nuestra Guía Online sobre instrumentos de percusión.
+            La percusión se distingue por la variedad de timbres que es capaz de producir y por
+            su facilidad de adaptación con otros instrumentos musicales. Cabe destacar que puede
+            obtenerse una gran variedad de sonidos según las baquetas o mazos que se usan para
+            golpear algunos de los instrumentos de percusión.</descripcion>
         <enlace>Ver percusión</enlace>
     </producto>
 
     <producto>
+        <id>4</id>
         <tipo>percusion-orquesta</tipo>
         <nombre>Percusión de orquesta</nombre>
         <imagen>../dist/img/percusion/orquesta.PNG</imagen>
-        <descripcion>Escala corta</descripcion>
+        <descripcion>Bienvenido a nuestra Guía Online sobre instrumentos de percusión de orquesta.
+            Así que que has decidido aficionarte a los instrumentos de percusión de orquesta.
+            ¡Muchas Felicidades! Tu nuevo Hobby te traerá con toda seguridad mucha diversión.
+            Y cuanto más te hagas con cada uno de los instrumentos, mayor será tu diversión
+            con sus sonidos. Porque además el comienzo con los instrumentos de percusión es
+            precisamente de los más sencillos.</descripcion>
         <enlace>Ver percusión de orquesta</enlace>
     </producto>
     <!-- /Percusion-orquesta -->
 
     <!-- Teclado-piano -->
     <producto>
+        <id>5</id>
         <tipo>teclado-piano</tipo>
         <nombre>Teclados</nombre>
-        <imagen>../dist/img/</imagen>
+        <imagen>../dist/img/teclados/teclados.PNG</imagen>
         <descripcion>Bienvenido a nuestro Asesor Online para Teclados Controladores.
             En las siguientes páginas se ofrece una visión general de las principales funciones
             de los teclados controladores, y los principales tipos disponibles.</descripcion>
@@ -57,9 +69,10 @@
     </producto>
 
     <producto>
+        <id>6</id>
         <tipo>teclado-piano</tipo>
         <nombre>Pianos</nombre>
-        <imagen>../dist/img/</imagen>
+        <imagen>../dist/img/teclados/piano.PNG</imagen>
         <descripcion>Bienvenido a nuestra Guía Online de Pianos. Los pianos son una gran opción
             para cualquier persona, desde un principiante a un músico profesional que da conciertos.
             En esta guía, vamos a tratar de darte la información que necesitas para que puedas elegir
@@ -70,21 +83,54 @@
 
     <!-- Iluminacion-proyector -->
     <producto>
+        <id>7</id>
         <tipo>iluminacion-proyector</tipo>
-        <nombre>Harley Benton ST-20 BK Standard Series</nombre>
-        <imagen>../dist/img/guitarras-bajos/guitarra-electrica-1.PNG</imagen>
-        <descripcion>Escala corta</descripcion>
-        <enlace></enlace>
+        <nombre>Controladores de iluminacón</nombre>
+        <imagen>../dist/img/iluminacion/controlador_iluminacion.jpg</imagen>
+        <descripcion>Bienvenido a nuestra guía online sobre DMX. El DMX se estandarizó en el año 1990.
+            Desde entonces y debido a su flexibilidad y estabilidad se ha establecido como un
+            componente solido en la técnica de iluminación. Aunque actualmente ha aparecido una potencial
+            competencia en forma de sistemas de red, muchos no quieren renunciar a la señal DMX.</descripcion>
+        <enlace>Ver sets de iluminación</enlace>
+    </producto>
+
+    <producto>
+        <id>8</id>
+        <tipo>iluminacion-proyector</tipo>
+        <nombre>Proyectores</nombre>
+        <imagen>../dist/img/iluminacion/proyectores.jpg</imagen>
+        <descripcion>Bienvenido a nuestra guía online sobre DMX. El DMX se estandarizó en el año 1990.
+            Desde entonces y debido a su flexibilidad y estabilidad se ha establecido como un
+            componente solido en la técnica de iluminación. Aunque actualmente ha aparecido una potencial
+            competencia en forma de sistemas de red, muchos no quieren renunciar a la señal DMX.</descripcion>
+        <enlace>Ver proyectores</enlace>
     </producto>
     <!-- /Iluminacion-proyector -->
 
     <!-- Controlador-mezclador -->
     <producto>
+        <id>9</id>
         <tipo>controlador-mezclador</tipo>
-        <nombre>Harley Benton ST-20 BK Standard Series</nombre>
-        <imagen>../dist/img/guitarras-bajos/guitarra-electrica-1.PNG</imagen>
-        <descripcion>Escala corta</descripcion>
-        <enlace>Más información</enlace>
+        <nombre>Controladores Dj</nombre>
+        <imagen>../dist/img/dj/controladores_dj.jpg</imagen>
+        <descripcion>Bienvenidos a nuestra Guía Online acerca del tema de los DJ-Controllers.
+            En las siguientes páginas queremos mostraros las DJ-Tools más conocidas y su forma
+            de funcionamiento y prestaciones en las diferentes clases de producto, y presentaros
+            algunos de los modelos más populares.</descripcion>
+        <enlace>Ver Controladores</enlace>
+    </producto>
+
+    <producto>
+        <id>10</id>
+        <tipo>controlador-mezclador</tipo>
+        <nombre>Mezcladores Dj</nombre>
+        <imagen>../dist/img/dj/mesas_mezcla_Dj.jpg</imagen>
+        <descripcion>Bienvenido a nuestro Guía Online de Mezcladores para DJ. Ya seas un aficionado
+            al vinilo o ya te hayas convertido a los CDs, un mezclador es la única cosa que debe
+            incorporar una configuración para DJ. Esta guía echa un vistazo a los conceptos básicos
+            de los mezcladores para DJ, los tipos más comunes del mercado, cómo conectarlos, y cómo
+            la escena de mezcla de DJ está cambiando.</descripcion>
+        <enlace>Ver Mezcladores</enlace>
     </producto>
     <!-- /Controlador-mezclador -->
 </instrumentos>

@@ -1,4 +1,6 @@
 $(document).ready(function (){
+    var url = window.location.href
+    var id = url.substring(url.lastIndexOf('=')+1)
 
     $.ajax( {
         url: "../Pages/xml/instrumentos-list.xml",
@@ -52,26 +54,47 @@ $(document).ready(function (){
                                     '<hr>' +
                                 '</div>'
 
-                if($(this).find('tipo').text() === "guitarra") {
-                    $('#guitarras').append(contenido);
-                } else if($(this).find('tipo').text() === "bajo") {
-                    $('#bajos').append(contenido);
+
+                if ($(this).find('tipo').text() === "guitarra") {
+                    if (id === "1") {
+                        $('#producto').append(contenido);
+                    }
+                } else if ($(this).find('tipo').text() === "bajo") {
+                    if (id === "2") {
+                        $('#producto').append(contenido);
+                    }
                 } else if($(this).find('tipo').text() === "percusion") {
-                    $('#percusion').append(contenido);
+                    if (id === "3") {
+                        $('#producto').append(contenido);
+                    }
                 } else if($(this).find('tipo').text() === "orquesta") {
-                    $('#orquesta').append(contenido);
+                    if (id === "4") {
+                        $('#producto').append(contenido);
+                    }
                 } else if($(this).find('tipo').text() === "teclado") {
-                    $('#teclado').append(contenido);
+                    if (id === "5") {
+                        $('#producto').append(contenido);
+                    }
                 } else if($(this).find('tipo').text() === "piano") {
-                    $('#piano').append(contenido);
+                    if (id === "6") {
+                        $('#producto').append(contenido);
+                    }
                 } else if($(this).find('tipo').text() === "iluminacion") {
-                    $('#iluminacion').append(contenido);
+                    if (id === "7") {
+                        $('#producto').append(contenido);
+                    }
                 } else if($(this).find('tipo').text() === "proyector") {
-                    $('#proyector').append(contenido);
+                    if (id === "8") {
+                        $('#producto').append(contenido);
+                    }
                 } else if($(this).find('tipo').text() === "controlador") {
-                    $('#controlador').append(contenido);
+                    if (id === "9") {
+                        $('#producto').append(contenido);
+                    }
                 } else if($(this).find('tipo').text() === "mezclador") {
-                    $('#mezclador').append(contenido);
+                    if (id === "10") {
+                        $('#producto').append(contenido);
+                    }
                 }
 
             });
