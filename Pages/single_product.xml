@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<instrumentos>
+    <instrumento>
+        <nombre> Harley Benton ST-20 BK Standard Series </nombre>
+        <imagen>../dist/img/guitarra-electrica-1.PNG</imagen>
+        <info1>Cuerpo de madera de tilo</info1>
+        <info2>Conmutador de 5 vías</info2>
+        <info3>Hardware cromado</info3>
+        <info4>Mecánicas cerradas</info4>
+        <info5>Trémolo sincronizado</info5>
+        <info6>Medida: 648 mm</info6>
+        <info7>Ancho de cejuela: 42 mm</info7>
+        <info8>Radio del diapasón: 350 mm</info8>
+        <des1>Color</des1>
+        <des2>Cuerpo</des2>
+        <des3>Pala</des3>
+        <des4>Trastes</des4>
+        <tabla1>Negro</tabla1>
+        <tabla2>Madera de roble</tabla2>
+        <tabla3>Arce</tabla3>
+        <tabla4>21</tabla4>
+    </instrumento>
+    <instrumento>
+    <nombre></nombre>
+    <imagen></imagen>
+    <info1></info1>
+    <info2></info2>
+    <info3></info3>
+    <info4></info4>
+    <info5></info5>
+    <info6></info6>
+    <info7></info7>
+    <info8></info8>
+    <color> </color>
+    <cuerpo> </cuerpo>
+    <pala> </pala>
+    <trastes> </trastes>
+    </instrumento>
+</instrumentos>
