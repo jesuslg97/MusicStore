@@ -1,7 +1,9 @@
 $(document).ready(function (){
 
+    var url = window.location.href
+    var id = url.substring(url.lastIndexOf('=')+1)
     $.ajax( {
-        url: "../Pages/single_product.xml",
+        url: "../Pages/xml/single_product.xml",
         cache: false,
         dataType: "xml",
         success: function (xml) {
@@ -28,42 +30,51 @@ $(document).ready(function (){
                 var contenido = '<div class="col-md-3 mb-3 ">' +
                                     '<img alt="" class="img-fluid rounded" src=' + img + '>' +
                                     '</div>' +
-                                        '<div class="col-md-6">' +
-                                            '<h4>' + nombre + '</h4>' +
-                                            '<ul>' +
-                                                '<li class="col1">' + info1 + '</li>' +
-                                                '<li class="col1">' + info2 + '</li>' +
-                                                '<li class="col1">' + info3 + '</li>' +
-                                                '<li class="col1">' + info4 + '</li>' +
-                                                '<li class="col2">' + info5 + '</li>' +
-                                                '<li class="col2">' + info6 + '</li>' +
-                                                '<li class="col2">' + info7 + '</li>' +
-                                                '<li class="col2">' + info8 + '</li>' +
-                                            '</ul>' +
-                                            '</div>' +
-                                                '<div class="col-md-3 mt-5">' +
-                                                    '<table class="table">' +
-                                                        '<tbody>' +
-                                                            '<tr>' +
-                                                                '<th>' + desc1 + '</th>' +
-                                                                '<td>' + tabla1 + '</td>' +
-                                                            '</tr>' +
-                                                            '<tr>' +
-                                                                '<th>' + desc2 + '</th>' +
-                                                                '<td>' + tabla2 + '</td>' +
-                                                            '</tr>' +
-                                                            '<tr>' +
-                                                                '<th>' + desc3 + '</th>' +
-                                                                '<td>' + tabla3 + '</td>' +
-                                                            '</tr>' +
-                                                            '<tr>' +
-                                                                '<th>' + desc4 + '</th>' +
-                                                                '<td>' + tabla4 + '</td>' +
-                                                            '</tr>' +
-                                                        '</tbody>' +
-                                                    '</table>' +
-                                                '</div>'
-                $('#instrumento').append(contenido);
+                                    '<div class="col-md-6">' +
+                                        '<h4>' + nombre + '</h4>' +
+                                        '<ul>' +
+                                            '<li class="col1">' + info1 + '</li>' +
+                                            '<li class="col1">' + info2 + '</li>' +
+                                            '<li class="col1">' + info3 + '</li>' +
+                                            '<li class="col1">' + info4 + '</li>' +
+                                            '<li class="col2">' + info5 + '</li>' +
+                                            '<li class="col2">' + info6 + '</li>' +
+                                            '<li class="col2">' + info7 + '</li>' +
+                                            '<li class="col2">' + info8 + '</li>' +
+                                        '</ul>' +
+                                    '</div>' +
+                                    '<div class="col-md-3 mt-5">' +
+                                        '<table class="table">' +
+                                            '<tbody>' +
+                                                '<tr>' +
+                                                    '<th>' + desc1 + '</th>' +
+                                                    '<td>' + tabla1 + '</td>' +
+                                                '</tr>' +
+                                                '<tr>' +
+                                                    '<th>' + desc2 + '</th>' +
+                                                    '<td>' + tabla2 + '</td>' +
+                                                '</tr>' +
+                                                '<tr>' +
+                                                    '<th>' + desc3 + '</th>' +
+                                                    '<td>' + tabla3 + '</td>' +
+                                                '</tr>' +
+                                                '<tr>' +
+                                                    '<th>' + desc4 + '</th>' +
+                                                    '<td>' + tabla4 + '</td>' +
+                                                '</tr>' +
+                                            '</tbody>' +
+                                        '</table>' +
+                                    '</div>'
+
+                if (id === "1") {
+                    if ($(this).find('tipo').text() === "g1") {
+                        $('#instrumento').append(contenido);
+                    }
+                    if ($(this).find('tipo').text() === "g2") {
+                        $('#instrumento').append(contenido);
+                    }
+                }
+
             });
         }
     });
