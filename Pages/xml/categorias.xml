@@ -3,7 +3,6 @@
     <!-- Guitarras-bajos -->
     <categoria>
         <id>1</id>
-        <tipo>guitarra-bajo</tipo>
         <nombre>Guitarras eléctricas</nombre>
         <imagen>../dist/img/guitarras-bajos/guitarra-electrica.PNG</imagen>
         <descripcion>Bienvenido a nuestra Guía Online de Guitarras Eléctricas.
@@ -16,7 +15,6 @@
 
     <categoria>
         <id>2</id>
-        <tipo>guitarra-bajo</tipo>
         <nombre>Bajos</nombre>
         <imagen>../dist/img/guitarras-bajos/bajos.PNG</imagen>
         <descripcion>El bajo es un instrumento fundamental en prácticamente todos los estilos
@@ -30,7 +28,6 @@
     <!-- Percusion-orquesta -->
     <categoria>
         <id>3</id>
-        <tipo>percusion-orquesta</tipo>
         <nombre>Percusión</nombre>
         <imagen>../dist/img/percusion/percusion.PNG</imagen>
         <descripcion>Bienvenido a nuestra Guía Online sobre instrumentos de percusión.
@@ -43,7 +40,6 @@
 
     <categoria>
         <id>4</id>
-        <tipo>percusion-orquesta</tipo>
         <nombre>Percusión de orquesta</nombre>
         <imagen>../dist/img/percusion/orquesta.PNG</imagen>
         <descripcion>Bienvenido a nuestra Guía Online sobre instrumentos de percusión de orquesta.
@@ -59,7 +55,6 @@
     <!-- Teclado-piano -->
     <categoria>
         <id>5</id>
-        <tipo>teclado-piano</tipo>
         <nombre>Teclados</nombre>
         <imagen>../dist/img/teclados/teclados.PNG</imagen>
         <descripcion>Bienvenido a nuestro Asesor Online para Teclados Controladores.
@@ -70,7 +65,6 @@
 
     <categoria>
         <id>6</id>
-        <tipo>teclado-piano</tipo>
         <nombre>Pianos</nombre>
         <imagen>../dist/img/teclados/piano.PNG</imagen>
         <descripcion>Bienvenido a nuestra Guía Online de Pianos. Los pianos son una gran opción
@@ -84,7 +78,6 @@
     <!-- Iluminacion-proyector -->
     <categoria>
         <id>7</id>
-        <tipo>iluminacion-proyector</tipo>
         <nombre>Controladores de iluminacón</nombre>
         <imagen>../dist/img/iluminacion/controlador_iluminacion.jpg</imagen>
         <descripcion>Bienvenido a nuestra guía online sobre DMX. El DMX se estandarizó en el año 1990.
@@ -96,7 +89,6 @@
 
     <categoria>
         <id>8</id>
-        <tipo>iluminacion-proyector</tipo>
         <nombre>Proyectores</nombre>
         <imagen>../dist/img/iluminacion/proyectores.jpg</imagen>
         <descripcion>Bienvenido a nuestra guía online sobre DMX. El DMX se estandarizó en el año 1990.
@@ -110,7 +102,6 @@
     <!-- Controlador-mezclador -->
     <categoria>
         <id>9</id>
-        <tipo>controlador-mezclador</tipo>
         <nombre>Controladores Dj</nombre>
         <imagen>../dist/img/dj/controladores_dj.jpg</imagen>
         <descripcion>Bienvenidos a nuestra Guía Online acerca del tema de los DJ-Controllers.
@@ -122,7 +113,6 @@
 
     <categoria>
         <id>10</id>
-        <tipo>controlador-mezclador</tipo>
         <nombre>Mezcladores Dj</nombre>
         <imagen>../dist/img/dj/mesas_mezcla_Dj.jpg</imagen>
         <descripcion>Bienvenido a nuestro Guía Online de Mezcladores para DJ. Ya seas un aficionado

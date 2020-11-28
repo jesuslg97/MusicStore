@@ -29,6 +29,7 @@ $(document).ready(function () {
                     var des2 = $(this).find('descripcion2').text()
                     var des3 = $(this).find('descripcion3').text()
                     var price = $(this).find('precio').text()
+                    var tipo = $(this).find('tipo').text()
                     var contenido = '<div class="col-xl-6 col-md-12">' +
                         '<div class="row">' +
                         '<div class="col-md-4 mb-3 text-center">' +
@@ -58,43 +59,43 @@ $(document).ready(function () {
                         '</div>'
 
 
-                    if ($(this).find('tipo').text() === "guitarra") {
+                    if (tipo === "guitarra") {
                         if (id === "1") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if ($(this).find('tipo').text() === "bajo") {
+                    } else if (tipo === "bajo") {
                         if (id === "2") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if ($(this).find('tipo').text() === "percusion") {
+                    } else if (tipo === "percusion") {
                         if (id === "3") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if ($(this).find('tipo').text() === "orquesta") {
+                    } else if (tipo === "orquesta") {
                         if (id === "4") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if ($(this).find('tipo').text() === "teclado") {
+                    } else if (tipo === "teclado") {
                         if (id === "5") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if ($(this).find('tipo').text() === "piano") {
+                    } else if (tipo === "piano") {
                         if (id === "6") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if ($(this).find('tipo').text() === "iluminacion") {
+                    } else if (tipo === "iluminacion") {
                         if (id === "7") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if ($(this).find('tipo').text() === "proyector") {
+                    } else if (tipo === "proyector") {
                         if (id === "8") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if ($(this).find('tipo').text() === "controlador") {
+                    } else if (tipo === "controlador") {
                         if (id === "9") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if ($(this).find('tipo').text() === "mezclador") {
+                    } else if (tipo === "mezclador") {
                         if (id === "10") {
                             $('#producto-lista').append(contenido);
                         }
