@@ -1,32 +1,32 @@
 function activateNavbar(id) {
-    if (id==1) {
+    if (id === "1") {
         $('#guitarBassNav').addClass('active');
     }
-    if (id==2) {
+    if (id === "2") {
         $('#guitarBassNav').addClass('active');
     }
-    if (id==3) {
+    if (id === "3") {
         $('#percusionNav').addClass('active');
     }
-    if (id==4) {
+    if (id === "4") {
         $('#percusionNav').addClass('active');
     }
-    if (id==5) {
+    if (id === "5") {
         $('#tecladosNav').addClass('active');
     }
-    if (id==6) {
+    if (id === "6") {
         $('#tecladosNav').addClass('active');
     }
-    if (id==7) {
+    if (id === "7") {
         $('#iluminacionNav').addClass('active');
     }
-    if (id==8) {
+    if (id === "8") {
         $('#iluminacionNav').addClass('active');
     }
-    if (id==9) {
+    if (id === "9") {
         $('#djNav').addClass('active');
     }
-    if (id==10) {
+    if (id === "10") {
         $('#djNav').addClass('active');
     }
 }
