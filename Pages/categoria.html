@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../dist/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../dist/css/custom.css">
     <link rel="stylesheet" href="../dist/css/responsive.css">
+    <link rel="stylesheet" href="../dist/css/responsive.css">
 
     <title>MusicStore</title>
 </head>
@@ -42,23 +43,23 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item ">
+                <li class="nav-item" id="inicioNav">
                     <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../Pages/guitar-bajos.html">Guitarras/Bajos <span class="sr-only">(current)</span></a>
+                <li class="nav-item" id="guitarBassNav">
+                    <a class="nav-link" href="../Pages/categoria.html?id=1">Guitarras/Bajos <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../Pages/percusion.html">Percusión <span class="sr-only">(current)</span></a>
+                <li class="nav-item" id="percusionNav">
+                    <a class="nav-link" href="../Pages/categoria.html?id=3">Percusión <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="../Pages/teclados.html">Teclados <span class="sr-only">(current)</span></a>
+                <li class="nav-item" id="tecladosNav">
+                    <a class="nav-link" href="../Pages/categoria.html?id=5">Teclados <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../Pages/iluminacion.html">Iluminación <span class="sr-only">(current)</span></a>
+                <li class="nav-item" id="iluminacionNav">
+                    <a class="nav-link" href="../Pages/categoria.html?id=7">Iluminación <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../Pages/dj.html">Dj <span class="sr-only">(current)</span></a>
+                <li class="nav-item" id="djNav">
+                    <a class="nav-link" href="../Pages/categoria.html?id=9">Dj <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
             <ul class="navbar-nav">
@@ -77,15 +78,14 @@
 </header>
 <!-- /CABECERA -->
 
-
 <!-- CONTENIDO -->
-<div class="offset-1 col-10">
+<section class="offset-1 col-10">
     <div class="d-flex justify-content-center mt-5 content">
-        <div class="col-sm-10 py-4" id="teclado-piano">
+        <div class="col-sm-10 py-4" id="categoria">
 
         </div>
     </div>
-</div>
+</section>
 <!-- /CONTENIDO -->
 
 <!-- FOOTER -->
@@ -139,11 +139,13 @@
 </footer>
 <!-- FOOTER -->
 
+
 <!-- Optional JavaScript; choose one of the two! -->
 
 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="../dist/js/jquery/jquery-3.5.1.js" ></script>
 <script src="../dist/js/bootstrap/bootstrap.bundle.min.js"></script>
-<script src="../dist/js/product.js"></script>
+<script src="../dist/js/general.js"></script>
+<script src="../dist/js/categoria.js"></script>
 </body>
 </html>

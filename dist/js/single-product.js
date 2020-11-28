@@ -17,7 +17,7 @@ $(document).ready(function () {
 
     function getXMLSingle() {
         $.ajax({
-            url: "../Pages/xml/single_product.xml",
+            url: "../Pages/xml/single-product.xml",
             cache: false,
             dataType: "xml",
             success: function (xml) {

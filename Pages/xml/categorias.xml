@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<instrumentos>
+<categorias>
     <!-- Guitarras-bajos -->
-    <producto>
+    <categoria>
         <id>1</id>
         <tipo>guitarra-bajo</tipo>
         <nombre>Guitarras eléctricas</nombre>
@@ -12,9 +12,9 @@
             así como proporcionarte más información general acerca del propio instrumento y los
             mejores accesorios de su clase.</descripcion>
         <enlace>Ver guitarras eléctricas</enlace>
-    </producto>
+    </categoria>
 
-    <producto>
+    <categoria>
         <id>2</id>
         <tipo>guitarra-bajo</tipo>
         <nombre>Bajos</nombre>
@@ -24,11 +24,11 @@
             páginas vamos a tratar de darte una visión completa del bajo y todos sus componentes,
             desde los instrumentos clásicos a los modernos.</descripcion>
         <enlace>Ver bajos</enlace>
-    </producto>
+    </categoria>
     <!-- /Guitarras-bajos -->
 
     <!-- Percusion-orquesta -->
-    <producto>
+    <categoria>
         <id>3</id>
         <tipo>percusion-orquesta</tipo>
         <nombre>Percusión</nombre>
@@ -39,9 +39,9 @@
             obtenerse una gran variedad de sonidos según las baquetas o mazos que se usan para
             golpear algunos de los instrumentos de percusión.</descripcion>
         <enlace>Ver percusión</enlace>
-    </producto>
+    </categoria>
 
-    <producto>
+    <categoria>
         <id>4</id>
         <tipo>percusion-orquesta</tipo>
         <nombre>Percusión de orquesta</nombre>
@@ -53,11 +53,11 @@
             con sus sonidos. Porque además el comienzo con los instrumentos de percusión es
             precisamente de los más sencillos.</descripcion>
         <enlace>Ver percusión de orquesta</enlace>
-    </producto>
+    </categoria>
     <!-- /Percusion-orquesta -->
 
     <!-- Teclado-piano -->
-    <producto>
+    <categoria>
         <id>5</id>
         <tipo>teclado-piano</tipo>
         <nombre>Teclados</nombre>
@@ -66,9 +66,9 @@
             En las siguientes páginas se ofrece una visión general de las principales funciones
             de los teclados controladores, y los principales tipos disponibles.</descripcion>
         <enlace>Ver teclados</enlace>
-    </producto>
+    </categoria>
 
-    <producto>
+    <categoria>
         <id>6</id>
         <tipo>teclado-piano</tipo>
         <nombre>Pianos</nombre>
@@ -78,11 +78,11 @@
             En esta guía, vamos a tratar de darte la información que necesitas para que puedas elegir
             el más adecuado para ti.</descripcion>
         <enlace>Ver pianos</enlace>
-    </producto>
+    </categoria>
     <!-- /Teclado-piano -->
 
     <!-- Iluminacion-proyector -->
-    <producto>
+    <categoria>
         <id>7</id>
         <tipo>iluminacion-proyector</tipo>
         <nombre>Controladores de iluminacón</nombre>
@@ -92,9 +92,9 @@
             componente solido en la técnica de iluminación. Aunque actualmente ha aparecido una potencial
             competencia en forma de sistemas de red, muchos no quieren renunciar a la señal DMX.</descripcion>
         <enlace>Ver sets de iluminación</enlace>
-    </producto>
+    </categoria>
 
-    <producto>
+    <categoria>
         <id>8</id>
         <tipo>iluminacion-proyector</tipo>
         <nombre>Proyectores</nombre>
@@ -104,11 +104,11 @@
             componente solido en la técnica de iluminación. Aunque actualmente ha aparecido una potencial
             competencia en forma de sistemas de red, muchos no quieren renunciar a la señal DMX.</descripcion>
         <enlace>Ver proyectores</enlace>
-    </producto>
+    </categoria>
     <!-- /Iluminacion-proyector -->
 
     <!-- Controlador-mezclador -->
-    <producto>
+    <categoria>
         <id>9</id>
         <tipo>controlador-mezclador</tipo>
         <nombre>Controladores Dj</nombre>
@@ -118,9 +118,9 @@
             de funcionamiento y prestaciones en las diferentes clases de producto, y presentaros
             algunos de los modelos más populares.</descripcion>
         <enlace>Ver Controladores</enlace>
-    </producto>
+    </categoria>
 
-    <producto>
+    <categoria>
         <id>10</id>
         <tipo>controlador-mezclador</tipo>
         <nombre>Mezcladores Dj</nombre>
@@ -131,6 +131,6 @@
             de los mezcladores para DJ, los tipos más comunes del mercado, cómo conectarlos, y cómo
             la escena de mezcla de DJ está cambiando.</descripcion>
         <enlace>Ver Mezcladores</enlace>
-    </producto>
+    </categoria>
     <!-- /Controlador-mezclador -->
-</instrumentos>
+</categorias>

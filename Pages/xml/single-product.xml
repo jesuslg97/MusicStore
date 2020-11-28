@@ -4,7 +4,7 @@
         <id>1</id>
         <tipo>guitarra</tipo>
         <nombre> Harley Benton ST-20 BK Standard Series </nombre>
-        <imagen>../dist/img/guitarra-electrica-1.PNG</imagen>
+        <imagen>../dist/img/guitarras-bajos/guitarra-electrica-1.PNG</imagen>
         <info1>Cuerpo de madera de tilo</info1>
         <info2>Conmutador de 5 vías</info2>
         <info3>Hardware cromado</info3>
@@ -26,7 +26,7 @@
         <id>2</id>
         <tipo>guitarra</tipo>
         <nombre> Harley Benton ST-20 </nombre>
-        <imagen>../dist/img/guitarra-electrica-2.PNG</imagen>
+        <imagen>../dist/img/guitarras-bajos/guitarra-electrica-2.PNG</imagen>
         <info1>Cuerpo de madera de tilo</info1>
         <info2>Conmutador de 5 vías</info2>
         <info3>Hardware cromado</info3>
