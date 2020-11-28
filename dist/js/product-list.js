@@ -28,9 +28,7 @@ $(document).ready(function () {
                     var des1 = $(this).find('descripcion1').text()
                     var des2 = $(this).find('descripcion2').text()
                     var des3 = $(this).find('descripcion3').text()
-                    var link = $(this).find('enlace').text()
                     var price = $(this).find('precio').text()
-                    var carrito = $(this).find('boton').text()
                     var contenido = '<div class="col-xl-6 col-md-12">' +
                         '<div class="row">' +
                         '<div class="col-md-4 mb-3 text-center">' +
@@ -42,7 +40,7 @@ $(document).ready(function () {
                         '<li>' + des1 + '</li>' +
                         '<li>' + des2 + '</li>' +
                         '<li>' + des3 + '</li>' +
-                        '<span><a href="single-product.html">' + link + '</a></span>' +
+                        '<span><a href="single-product.html?id=' + id + '">' + "Más información" + '</a></span>' +
                         '</ul>' +
                         '</div>' +
                         '<div class="col-md-4 text-center mt-3">' +
@@ -51,7 +49,7 @@ $(document).ready(function () {
                         '</div>' +
                         '</div>' +
                         '<div class="col-md-8 text-center mt-3">' +
-                        '<button onclick="" class="btn btn-dark">' + carrito + '</button>' +
+                        '<button onclick="" class="btn btn-dark">' + "Añadir al carrito" + '</button>' +
                         '</div>' +
                         '</div>' +
                         '</div>' +

@@ -11,8 +11,6 @@
         <descripcion1>Escala corta</descripcion1>
         <descripcion2>Mástil atornillado</descripcion2>
         <descripcion3>Cuerpo de tilo</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <producto>
         <id>1</id>
@@ -23,8 +21,6 @@
         <descripcion1>Rock Series</descripcion1>
         <descripcion2>Cuerpo de tilo</descripcion2>
         <descripcion3>Diapasón de amaranto con inlays de puntos</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <!-- /Guitarras -->
 
@@ -38,8 +34,6 @@
         <descripcion1>Cuerpo de caoba</descripcion1>
         <descripcion2>Golpeador de carey</descripcion2>
         <descripcion3>Herrajes de cromo</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <producto>
         <id>2</id>
@@ -50,8 +44,6 @@
         <descripcion1>Modelo con Cutaway</descripcion1>
         <descripcion2>Tapa de pícea maciza</descripcion2>
         <descripcion3>Diapasón de laurel indio</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <!-- /Bajos -->
     <!-- /Guitarras-bajos -->
@@ -67,8 +59,6 @@
         <descripcion1>Escala corta</descripcion1>
         <descripcion2>Mástil atornillado</descripcion2>
         <descripcion3>Cuerpo de tilo</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <producto>
         <id>3</id>
@@ -79,8 +69,6 @@
         <descripcion1>25 cascabeles unidos a tiras de tela</descripcion1>
         <descripcion2>Montadas en un mango de madera</descripcion2>
         <descripcion3>Forma ergonómica</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <!-- /Percusion -->
 
@@ -94,8 +82,6 @@
         <descripcion1>Diámetros: 7 1/4" + 8 5/8"</descripcion1>
         <descripcion2>Color: Natur</descripcion2>
         <descripcion3>Altura: 17cm</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <producto>
         <id>4</id>
@@ -106,8 +92,6 @@
         <descripcion1>Matador Serie</descripcion1>
         <descripcion2>Diámetros: 7 1/4" + 8 5/8"</descripcion2>
         <descripcion3>Color: Dark Brown</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <!-- /Orquesta -->
     <!-- /Percusion-Orquesta -->
@@ -123,8 +107,6 @@
         <descripcion1>37 notas teclas delgadas</descripcion1>
         <descripcion2>Velocidad y aftertouch sensibles</descripcion2>
         <descripcion3>LED encima de cada tecla para una realimentación visual eficiente</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <producto>
         <id>5</id>
@@ -135,8 +117,6 @@
         <descripcion1>37 teclas sensibles a la velocidad</descripcion1>
         <descripcion2>16 Pads sensibles con iluminación RGB</descripcion2>
         <descripcion3>Modos Scale y Chord</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <!-- /Teclado -->
 
@@ -150,8 +130,6 @@
         <descripcion1>Acabado: Blanco Pulido</descripcion1>
         <descripcion2>Cuerdas Röslau</descripcion2>
         <descripcion3>7 1/4 octavas</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <producto>
         <id>6</id>
@@ -162,8 +140,6 @@
         <descripcion1>Color: Negro pulido</descripcion1>
         <descripcion2>banqueta incluida</descripcion2>
         <descripcion3>Octavas: 7 1/4</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <!-- /piano -->
     <!-- /Teclado-Piano -->
@@ -179,8 +155,6 @@
         <descripcion1>Control a tiempo real de hasta 2.048 parámetros en combinación con las consolas grandMA3 onPC Software</descripcion1>
         <descripcion2>Expansible hasta 4.096 parámetros</descripcion2>
         <descripcion3>Diseño de la sección de comandos idéntico al de los modelos grandMA3 compact</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <producto>
         <id>7</id>
@@ -191,8 +165,6 @@
         <descripcion1>Interfaz de usuario rápido y sencillo que precisa poco tiempo de configuración y aprendizaje</descripcion1>
         <descripcion2>Pantalla táctil de 9,7 pulgadas</descripcion2>
         <descripcion3>Amplia sección de funciones</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <!-- /Iluminacion -->
 
@@ -206,8 +178,6 @@
         <descripcion1>Fuente de luz: 5 piezas LED RGBAW+UV 6 en 1 de 8W</descripcion1>
         <descripcion2>Ángulo del haz: 20º</descripcion2>
         <descripcion3>Control DMX 512 (6/8/10 canales)</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <producto>
         <id>8</id>
@@ -218,8 +188,6 @@
         <descripcion1>Fuente de luz: 6 LEDs RGBAW UV de 15W</descripcion1>
         <descripcion2>Ángulo del haz: 20º</descripcion2>
         <descripcion3>Control: DMX (6/10 canales), DMX inalámbrico (Wireless Solution G5), maestro/esclavo, cambio automático y programas de desvanecimiento, colores</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <!-- /Proyectores -->
     <!-- /Iluminacion-Proyectores -->
@@ -235,8 +203,6 @@
         <descripcion1>Controlador de 2 Decks</descripcion1>
         <descripcion2>Beatmatch-Guide</descripcion2>
         <descripcion3>Intelligent Music Assist</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <producto>
         <id>9</id>
@@ -247,8 +213,6 @@
         <descripcion1>Fully-fledged 2-deck DJ console that fits in the backpack</descripcion1>
         <descripcion2>1 x USB and 1 x SD media connections</descripcion2>
         <descripcion3>7" Touchscreen with gesture contro</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <!-- /Controladores -->
 
@@ -262,8 +226,6 @@
         <descripcion1>2 Canales de Linea</descripcion1>
         <descripcion2>Serato DJ effect control</descripcion2>
         <descripcion3>285 x 445 x 105 mm</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <producto>
         <id>10</id>
@@ -274,8 +236,6 @@
         <descripcion1>7 canales</descripcion1>
         <descripcion2>LED de Ganancia/Clip</descripcion2>
         <descripcion3>Alimentación phantom</descripcion3>
-        <enlace>Más información</enlace>
-        <boton>Añadir al carrito</boton>
     </producto>
     <!-- /Mezcladores -->
     <!-- /Controladores-Mezcladores -->
