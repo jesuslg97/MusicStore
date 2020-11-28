@@ -5,6 +5,7 @@
     <producto>
         <id>1</id>
         <tipo>guitarra</tipo>
+        <tipo2>g1</tipo2>
         <nombre>Harley Benton ST-20 BK Standard Series</nombre>
         <imagen>../dist/img/guitarras-bajos/guitarra-electrica-1.PNG</imagen>
         <precio>230€</precio>
@@ -29,6 +30,7 @@
     <producto>
         <id>1</id>
         <tipo>guitarra</tipo>
+        <tipo2>g2</tipo2>
         <nombre>Harley Benton WL-20BK Rock Series</nombre>
         <imagen>../dist/img/guitarras-bajos/guitarra-electrica-2.PNG</imagen>
         <precio>109€</precio>

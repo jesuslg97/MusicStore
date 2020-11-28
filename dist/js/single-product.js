@@ -33,6 +33,7 @@ $(document).ready(function () {
                     var des6 = $(this).find('descripcion6').text()
                     var des7 = $(this).find('descripcion7').text()
                     var des8 = $(this).find('descripcion8').text()
+                    var price = $(this).find('precio').text()
                     var desc1 = $(this).find('desc1').text()
                     var desc2 = $(this).find('desc2').text()
                     var desc3 = $(this).find('desc3').text()
@@ -41,8 +42,8 @@ $(document).ready(function () {
                     var tabla2 = $(this).find('tabla2').text()
                     var tabla3 = $(this).find('tabla3').text()
                     var tabla4 = $(this).find('tabla4').text()
-                    var idproducto = $(this).find('id').text()
-                    var tipo = $(this).find('tipo').text()
+                    //var idproducto = $(this).find('id').text()
+                    var tipo = $(this).find('tipo2').text()
                     var contenido = '<div class="col-md-3 mb-3 ">' +
                         '<img alt="" class="img-fluid rounded" src=' + img + '>' +
                         '</div>' +
@@ -80,10 +81,23 @@ $(document).ready(function () {
                         '</tr>' +
                         '</tbody>' +
                         '</table>' +
+                        '</div>' +
+                        '<div class="col-md-4 text-center mt-3">' +
+                        '<div class="alert alert-dark p-2 my-auto">' +
+                        '<h5 class="my-auto">' + price + '</h5>' +
+                        '</div>' +
+                        '</div>' +
+                        '<div class="col-md-8 text-center mt-3">' +
+                        '<button onclick="" class="btn btn-dark">' + "Añadir al carrito" + '</button>' +
+                        '</div>' +
+                        '</div>' +
+                        '</div>' +
+                        '<div class="col-md-12 d-xl-none">' +
+                        '<hr>' +
                         '</div>'
 
                     if (id === "1") {
-                        if (idproducto === "1" && tipo === "guitarra") {
+                        if (tipo === "g1") {
                             $('#guitarra').append(contenido);
                         }
                     }
