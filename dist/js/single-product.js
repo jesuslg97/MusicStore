@@ -17,22 +17,22 @@ $(document).ready(function () {
 
     function getXMLSingle() {
         $.ajax({
-            url: "../Pages/xml/single-product.xml",
+            url: "../Pages/xml/instrumentos-list.xml",
             cache: false,
             dataType: "xml",
             success: function (xml) {
                 $('#guitarra').empty()
-                $(xml).find("instrumento").each(function () {
+                $(xml).find("producto").each(function () {
                     var nombre = $(this).find('nombre').text()
                     var img = $(this).find('imagen').text()
-                    var info1 = $(this).find('info1').text()
-                    var info2 = $(this).find('info2').text()
-                    var info3 = $(this).find('info3').text()
-                    var info4 = $(this).find('info4').text()
-                    var info5 = $(this).find('info5').text()
-                    var info6 = $(this).find('info6').text()
-                    var info7 = $(this).find('info7').text()
-                    var info8 = $(this).find('info8').text()
+                    var des1 = $(this).find('descripcion1').text()
+                    var des2 = $(this).find('descripcion2').text()
+                    var des3 = $(this).find('descripcion3').text()
+                    var des4 = $(this).find('descripcion4').text()
+                    var des5 = $(this).find('descripcion5').text()
+                    var des6 = $(this).find('descripcion6').text()
+                    var des7 = $(this).find('descripcion7').text()
+                    var des8 = $(this).find('descripcion8').text()
                     var desc1 = $(this).find('desc1').text()
                     var desc2 = $(this).find('desc2').text()
                     var desc3 = $(this).find('desc3').text()
@@ -41,20 +41,22 @@ $(document).ready(function () {
                     var tabla2 = $(this).find('tabla2').text()
                     var tabla3 = $(this).find('tabla3').text()
                     var tabla4 = $(this).find('tabla4').text()
+                    var idproducto = $(this).find('id').text()
+                    var tipo = $(this).find('tipo').text()
                     var contenido = '<div class="col-md-3 mb-3 ">' +
                         '<img alt="" class="img-fluid rounded" src=' + img + '>' +
                         '</div>' +
                         '<div class="col-md-6">' +
                         '<h4>' + nombre + '</h4>' +
                         '<ul>' +
-                        '<li class="col1">' + info1 + '</li>' +
-                        '<li class="col1">' + info2 + '</li>' +
-                        '<li class="col1">' + info3 + '</li>' +
-                        '<li class="col1">' + info4 + '</li>' +
-                        '<li class="col2">' + info5 + '</li>' +
-                        '<li class="col2">' + info6 + '</li>' +
-                        '<li class="col2">' + info7 + '</li>' +
-                        '<li class="col2">' + info8 + '</li>' +
+                        '<li class="col1">' + des1 + '</li>' +
+                        '<li class="col1">' + des2 + '</li>' +
+                        '<li class="col1">' + des3 + '</li>' +
+                        '<li class="col1">' + des4 + '</li>' +
+                        '<li class="col2">' + des5 + '</li>' +
+                        '<li class="col2">' + des6 + '</li>' +
+                        '<li class="col2">' + des7 + '</li>' +
+                        '<li class="col2">' + des8 + '</li>' +
                         '</ul>' +
                         '</div>' +
                         '<div class="col-md-3 mt-5">' +
@@ -80,8 +82,8 @@ $(document).ready(function () {
                         '</table>' +
                         '</div>'
 
-                    if ($(this).find('tipo').text() === "guitarra") {
-                        if (id === "1") {
+                    if (id === "1") {
+                        if (idproducto === "1" && tipo === "guitarra") {
                             $('#guitarra').append(contenido);
                         }
                     }
