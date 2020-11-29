@@ -18,7 +18,7 @@ $(document).ready(function () {
     function getXMLProduct() {
 
         $.ajax({
-            url: "../Pages/xml/categorias.xml",
+            url: "../Pages/xml/instrumentos-list.xml",
             cache: false,
             dataType: "xml",
             success: function (xml) {
