@@ -89,14 +89,14 @@
         <tabla4>22</tabla4>
     </instrumento>
     <instrumento>
-        <id></id>
-        <tipo></tipo>
-        <nombre></nombre>
+        <id>3</id>
+        <tipo>p1</tipo>
+        <nombre>Gewa Fingercymbals</nombre>
         <imagen></imagen>
-        <info1></info1>
-        <info2></info2>
-        <info3></info3>
-        <info4></info4>
+        <info1>Escala corta</info1>
+        <info2>Mástil atornillado</info2>
+        <info3>Cuerpo de tilo</info3>
+        <info4>Fabricados en latón</info4>
         <info5></info5>
         <info6></info6>
         <info7></info7>
@@ -111,13 +111,13 @@
         <tabla4></tabla4>
     </instrumento>
     <instrumento>
-        <id></id>
-        <tipo></tipo>
-        <nombre></nombre>
+        <id>3</id>
+        <tipo>p2</tipo>
+        <nombre>LP CP374 Sleigh Bells</nombre>
         <imagen></imagen>
-        <info1></info1>
-        <info2></info2>
-        <info3></info3>
+        <info1>25 cascabeles unidos a tiras de tela</info1>
+        <info2>Montadas en un mango de madera</info2>
+        <info3>Forma ergonómica</info3>
         <info4></info4>
         <info5></info5>
         <info6></info6>
