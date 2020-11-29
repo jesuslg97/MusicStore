@@ -25,23 +25,420 @@
     <instrumento>
         <id>1</id>
         <tipo>g2</tipo>
-        <nombre> Harley Benton ST-20 </nombre>
-        <imagen>../dist/img/guitarra-electrica-2.PNG</imagen>
-        <info1>Cuerpo de madera de tilo</info1>
-        <info2>Conmutador de 5 vías</info2>
-        <info3>Hardware cromado</info3>
-        <info4>Mecánicas cerradas</info4>
-        <info5>Trémolo sincronizado</info5>
-        <info6>Medida: 648 mm</info6>
-        <info7>Ancho de cejuela: 42 mm</info7>
-        <info8>Radio del diapasón: 350 mm</info8>
+        <nombre>Harley Benton WL-20BK Rock Series</nombre>
+        <imagen></imagen>
+        <info1>Cuerpo de tilo</info1>
+        <info2>Diapasón de amaranto con inlays de puntos</info2>
+        <info3>Herrajes cromados</info3>
+        <info4>Clavijas de afinación Diecast (fundición)</info4>
+        <info5>2 pastillas humbucker de alta ganancia</info5>
+        <info6>1 control de volumen y 1 de tonos</info6>
+        <info7>Escala: 648 mm</info7>
+        <info8>Ancho de la cejilla: 43 mm</info8>
         <desc1>Color</desc1>
         <desc2>Cuerpo</desc2>
+        <desc3>Mástil</desc3>
+        <desc4>Trastes</desc4>
+        <tabla1>Negro brillante</tabla1>
+        <tabla2>Tilo</tabla2>
+        <tabla3>Arce</tabla3>
+        <tabla4>24</tabla4>
+    </instrumento>
+    <instrumento>
+        <id>2</id>
+        <tipo>b1</tipo>
+        <nombre>Harley Benton B-25M Acoustic Bass</nombre>
+        <imagen></imagen>
+        <info1>Cuerpo de caoba</info1>
+        <info2>Golpeador de carey</info2>
+        <info3>Herrajes de cromo</info3>
+        <info4>Diapasón de ovangkol</info4>
+        <info5>Inlays de puntos</info5>
+        <info6>Puente de ovangkol</info6>
+        <info7>Escala de 813 mm</info7>
+        <info8>Anchura de la cejilla: 43 mm</info8>
+        <desc1>Color</desc1>
+        <desc2>Tapa</desc2>
         <desc3>Pala</desc3>
         <desc4>Trastes</desc4>
-        <tabla1>Negro</tabla1>
-        <tabla2>Madera de roble</tabla2>
+        <tabla1>Marrón</tabla1>
+        <tabla2>Caoba</tabla2>
         <tabla3>Arce</tabla3>
-        <tabla4>21</tabla4>
+        <tabla4>20</tabla4>
     </instrumento>
+    <instrumento>
+        <id>2</id>
+        <tipo>b2</tipo>
+        <nombre>Fender CB-60SCE A-Bass Natural IL</nombre>
+        <imagen>Diapasón de laurel indio</imagen>
+        <info1>Modelo con Cutaway</info1>
+        <info2>Tapa de pícea maciza</info2>
+        <info3>Diapasón de laurel indio</info3>
+        <info4>Mástil de caoba</info4>
+        <info5>Sistema fonocaptor Fishmann CD Preamp</info5>
+        <info6>Cordaje original Fender 7060 Acoustic Bass .045 - .100</info6>
+        <info7>Ancho de cejuela: 43 mm</info7>
+        <info8>Medida: 813 mm (32")</info8>
+        <desc1>Color</desc1>
+        <desc2>Pala</desc2>
+        <desc3>Cuerpo</desc3>
+        <desc4>Trastes</desc4>
+        <tabla1>Natural</tabla1>
+        <tabla2>Caoba</tabla2>
+        <tabla3>Caoba</tabla3>
+        <tabla4>22</tabla4>
+    </instrumento>
+    <instrumento>
+        <id></id>
+        <tipo></tipo>
+        <nombre></nombre>
+        <imagen></imagen>
+        <info1></info1>
+        <info2></info2>
+        <info3></info3>
+        <info4></info4>
+        <info5></info5>
+        <info6></info6>
+        <info7></info7>
+        <info8></info8>
+        <desc1></desc1>
+        <desc2></desc2>
+        <desc3></desc3>
+        <desc4></desc4>
+        <tabla1></tabla1>
+        <tabla2></tabla2>
+        <tabla3></tabla3>
+        <tabla4></tabla4>
+    </instrumento>
+    <instrumento>
+        <id></id>
+        <tipo></tipo>
+        <nombre></nombre>
+        <imagen></imagen>
+        <info1></info1>
+        <info2></info2>
+        <info3></info3>
+        <info4></info4>
+        <info5></info5>
+        <info6></info6>
+        <info7></info7>
+        <info8></info8>
+        <desc1></desc1>
+        <desc2></desc2>
+        <desc3></desc3>
+        <desc4></desc4>
+        <tabla1></tabla1>
+        <tabla2></tabla2>
+        <tabla3></tabla3>
+        <tabla4></tabla4>
+    </instrumento>
+    <instrumento>
+        <id></id>
+        <tipo></tipo>
+        <nombre></nombre>
+        <imagen></imagen>
+        <info1></info1>
+        <info2></info2>
+        <info3></info3>
+        <info4></info4>
+        <info5></info5>
+        <info6></info6>
+        <info7></info7>
+        <info8></info8>
+        <desc1></desc1>
+        <desc2></desc2>
+        <desc3></desc3>
+        <desc4></desc4>
+        <tabla1></tabla1>
+        <tabla2></tabla2>
+        <tabla3></tabla3>
+        <tabla4></tabla4>
+    </instrumento>
+    <instrumento>
+        <id></id>
+        <tipo></tipo>
+        <nombre></nombre>
+        <imagen></imagen>
+        <info1></info1>
+        <info2></info2>
+        <info3></info3>
+        <info4></info4>
+        <info5></info5>
+        <info6></info6>
+        <info7></info7>
+        <info8></info8>
+        <desc1></desc1>
+        <desc2></desc2>
+        <desc3></desc3>
+        <desc4></desc4>
+        <tabla1></tabla1>
+        <tabla2></tabla2>
+        <tabla3></tabla3>
+        <tabla4></tabla4>
+    </instrumento>
+    <instrumento>
+        <id></id>
+        <tipo></tipo>
+        <nombre></nombre>
+        <imagen></imagen>
+        <info1></info1>
+        <info2></info2>
+        <info3></info3>
+        <info4></info4>
+        <info5></info5>
+        <info6></info6>
+        <info7></info7>
+        <info8></info8>
+        <desc1></desc1>
+        <desc2></desc2>
+        <desc3></desc3>
+        <desc4></desc4>
+        <tabla1></tabla1>
+        <tabla2></tabla2>
+        <tabla3></tabla3>
+        <tabla4></tabla4>
+    </instrumento>
+    <instrumento>
+        <id></id>
+        <tipo></tipo>
+        <nombre></nombre>
+        <imagen></imagen>
+        <info1></info1>
+        <info2></info2>
+        <info3></info3>
+        <info4></info4>
+        <info5></info5>
+        <info6></info6>
+        <info7></info7>
+        <info8></info8>
+        <desc1></desc1>
+        <desc2></desc2>
+        <desc3></desc3>
+        <desc4></desc4>
+        <tabla1></tabla1>
+        <tabla2></tabla2>
+        <tabla3></tabla3>
+        <tabla4></tabla4>
+    </instrumento>
+    <instrumento>
+        <id></id>
+        <tipo></tipo>
+        <nombre></nombre>
+        <imagen></imagen>
+        <info1></info1>
+        <info2></info2>
+        <info3></info3>
+        <info4></info4>
+        <info5></info5>
+        <info6></info6>
+        <info7></info7>
+        <info8></info8>
+        <desc1></desc1>
+        <desc2></desc2>
+        <desc3></desc3>
+        <desc4></desc4>
+        <tabla1></tabla1>
+        <tabla2></tabla2>
+        <tabla3></tabla3>
+        <tabla4></tabla4>
+    </instrumento>
+    <instrumento>
+        <id></id>
+        <tipo></tipo>
+        <nombre></nombre>
+        <imagen></imagen>
+        <info1></info1>
+        <info2></info2>
+        <info3></info3>
+        <info4></info4>
+        <info5></info5>
+        <info6></info6>
+        <info7></info7>
+        <info8></info8>
+        <desc1></desc1>
+        <desc2></desc2>
+        <desc3></desc3>
+        <desc4></desc4>
+        <tabla1></tabla1>
+        <tabla2></tabla2>
+        <tabla3></tabla3>
+        <tabla4></tabla4>
+    </instrumento>
+    <instrumento>
+        <id></id>
+        <tipo></tipo>
+        <nombre></nombre>
+        <imagen></imagen>
+        <info1></info1>
+        <info2></info2>
+        <info3></info3>
+        <info4></info4>
+        <info5></info5>
+        <info6></info6>
+        <info7></info7>
+        <info8></info8>
+        <desc1></desc1>
+        <desc2></desc2>
+        <desc3></desc3>
+        <desc4></desc4>
+        <tabla1></tabla1>
+        <tabla2></tabla2>
+        <tabla3></tabla3>
+        <tabla4></tabla4>
+    </instrumento>
+    <instrumento>
+        <id></id>
+        <tipo></tipo>
+        <nombre></nombre>
+        <imagen></imagen>
+        <info1></info1>
+        <info2></info2>
+        <info3></info3>
+        <info4></info4>
+        <info5></info5>
+        <info6></info6>
+        <info7></info7>
+        <info8></info8>
+        <desc1></desc1>
+        <desc2></desc2>
+        <desc3></desc3>
+        <desc4></desc4>
+        <tabla1></tabla1>
+        <tabla2></tabla2>
+        <tabla3></tabla3>
+        <tabla4></tabla4>
+    </instrumento>
+    <instrumento>
+        <id></id>
+        <tipo></tipo>
+        <nombre></nombre>
+        <imagen></imagen>
+        <info1></info1>
+        <info2></info2>
+        <info3></info3>
+        <info4></info4>
+        <info5></info5>
+        <info6></info6>
+        <info7></info7>
+        <info8></info8>
+        <desc1></desc1>
+        <desc2></desc2>
+        <desc3></desc3>
+        <desc4></desc4>
+        <tabla1></tabla1>
+        <tabla2></tabla2>
+        <tabla3></tabla3>
+        <tabla4></tabla4>
+    </instrumento>
+    <instrumento>
+        <id></id>
+        <tipo></tipo>
+        <nombre></nombre>
+        <imagen></imagen>
+        <info1></info1>
+        <info2></info2>
+        <info3></info3>
+        <info4></info4>
+        <info5></info5>
+        <info6></info6>
+        <info7></info7>
+        <info8></info8>
+        <desc1></desc1>
+        <desc2></desc2>
+        <desc3></desc3>
+        <desc4></desc4>
+        <tabla1></tabla1>
+        <tabla2></tabla2>
+        <tabla3></tabla3>
+        <tabla4></tabla4>
+    </instrumento>
+    <instrumento>
+        <id></id>
+        <tipo></tipo>
+        <nombre></nombre>
+        <imagen></imagen>
+        <info1></info1>
+        <info2></info2>
+        <info3></info3>
+        <info4></info4>
+        <info5></info5>
+        <info6></info6>
+        <info7></info7>
+        <info8></info8>
+        <desc1></desc1>
+        <desc2></desc2>
+        <desc3></desc3>
+        <desc4></desc4>
+        <tabla1></tabla1>
+        <tabla2></tabla2>
+        <tabla3></tabla3>
+        <tabla4></tabla4>
+    </instrumento>
+    <instrumento>
+        <id></id>
+        <tipo></tipo>
+        <nombre></nombre>
+        <imagen></imagen>
+        <info1></info1>
+        <info2></info2>
+        <info3></info3>
+        <info4></info4>
+        <info5></info5>
+        <info6></info6>
+        <info7></info7>
+        <info8></info8>
+        <desc1></desc1>
+        <desc2></desc2>
+        <desc3></desc3>
+        <desc4></desc4>
+        <tabla1></tabla1>
+        <tabla2></tabla2>
+        <tabla3></tabla3>
+        <tabla4></tabla4>
+    </instrumento>
+    <instrumento>
+        <id></id>
+        <tipo></tipo>
+        <nombre></nombre>
+        <imagen></imagen>
+        <info1></info1>
+        <info2></info2>
+        <info3></info3>
+        <info4></info4>
+        <info5></info5>
+        <info6></info6>
+        <info7></info7>
+        <info8></info8>
+        <desc1></desc1>
+        <desc2></desc2>
+        <desc3></desc3>
+        <desc4></desc4>
+        <tabla1></tabla1>
+        <tabla2></tabla2>
+        <tabla3></tabla3>
+        <tabla4></tabla4>
+    </instrumento>
+    <instrumento>
+        <id></id>
+        <tipo></tipo>
+        <nombre></nombre>
+        <imagen></imagen>
+        <info1></info1>
+        <info2></info2>
+        <info3></info3>
+        <info4></info4>
+        <info5></info5>
+        <info6></info6>
+        <info7></info7>
+        <info8></info8>
+        <desc1></desc1>
+        <desc2></desc2>
+        <desc3></desc3>
+        <desc4></desc4>
+        <tabla1></tabla1>
+        <tabla2></tabla2>
+        <tabla3></tabla3>
+        <tabla4></tabla4>
+    </instrumento>
+
 </instrumentos>
