@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    var url = window.location.href
-    var id = url.substring(url.lastIndexOf('=') + 1)
+    var url = window.location.href;
+    var id = url.substring(url.lastIndexOf('=') + 1);
     var freq = 10000;
 
     function startAJAXcalls() {
@@ -21,15 +21,16 @@ $(document).ready(function () {
             cache: false,
             dataType: "xml",
             success: function (xml) {
-                $('#producto-lista').empty()
+                $('#producto-lista').empty();
                 $(xml).find("producto").each(function () {
-                    var name = $(this).find('nombre').text()
-                    var img = $(this).find('imagen').text()
-                    var des1 = $(this).find('descripcion1').text()
-                    var des2 = $(this).find('descripcion2').text()
-                    var des3 = $(this).find('descripcion3').text()
-                    var price = $(this).find('precio').text()
-                    var tipo = $(this).find('tipo').text()
+                    var name = $(this).find('nombre').text();
+                    var img = $(this).find('imagen').text();
+                    var des1 = $(this).find('descripcion1').text();
+                    var des2 = $(this).find('descripcion2').text();
+                    var des3 = $(this).find('descripcion3').text();
+                    var price = $(this).find('precio').text();
+                    var tipo = $(this).find('tipo').text();
+                    var idProducto = $(this).find('id').text();
                     var contenido = '<div class="col-xl-6 col-md-12">' +
                         '<div class="row">' +
                         '<div class="col-md-4 mb-3 text-center">' +
@@ -41,7 +42,7 @@ $(document).ready(function () {
                         '<li>' + des1 + '</li>' +
                         '<li>' + des2 + '</li>' +
                         '<li>' + des3 + '</li>' +
-                        '<span><a href="single-product.html?id=' + id + '">' + "Más información" + '</a></span>' +
+                        '<span><a href="single-product.html?id=' + idProducto + '">' + "Más información" + '</a></span>' +
                         '</ul>' +
                         '</div>' +
                         '<div class="col-md-4 text-center mt-3">' +
@@ -56,7 +57,7 @@ $(document).ready(function () {
                         '</div>' +
                         '<div class="col-md-12 d-xl-none">' +
                         '<hr>' +
-                        '</div>'
+                        '</div>';
 
 
                     if (tipo === "guitarra") {

@@ -4,8 +4,8 @@
     <!-- Guitarras -->
     <producto>
         <id>1</id>
+        <idCategoria>1</idCategoria>
         <tipo>guitarra</tipo>
-        <tipo2>g1</tipo2>
         <nombre>Harley Benton ST-20 BK Standard Series</nombre>
         <imagen>../dist/img/guitarras-bajos/guitarra-electrica-1.PNG</imagen>
         <precio>230€</precio>
@@ -28,9 +28,9 @@
     </producto>
 
     <producto>
-        <id>1</id>
+        <id>2</id>
+        <idCategoria>1</idCategoria>
         <tipo>guitarra</tipo>
-        <tipo2>g2</tipo2>
         <nombre>Harley Benton WL-20BK Rock Series</nombre>
         <imagen>../dist/img/guitarras-bajos/guitarra-electrica-2.PNG</imagen>
         <precio>109€</precio>
@@ -55,7 +55,8 @@
 
     <!-- Bajos -->
     <producto>
-        <id>2</id>
+        <id>3</id>
+        <idCategoria>2</idCategoria>
         <tipo>bajo</tipo>
         <nombre>Harley Benton B-25M Acoustic Bass</nombre>
         <imagen>../dist/img/guitarras-bajos/bajos-1.PNG</imagen>
@@ -79,7 +80,8 @@
     </producto>
 
     <producto>
-        <id>2</id>
+        <id>4</id>
+        <idCategoria>2</idCategoria>
         <tipo>bajo</tipo>
         <nombre>Fender CB-60SCE A-Bass Natural IL</nombre>
         <imagen>../dist/img/guitarras-bajos/bajos-2.PNG</imagen>
@@ -107,7 +109,8 @@
     <!-- Percusion-Orquesta -->
     <!-- Percusion -->
     <producto>
-        <id>3</id>
+        <id>5</id>
+        <idCategoria>3</idCategoria>
         <tipo>percusion</tipo>
         <nombre>Gewa Fingercymbals</nombre>
         <imagen>../dist/img/percusion/percusion1.PNG</imagen>
@@ -131,7 +134,8 @@
     </producto>
 
     <producto>
-        <id>3</id>
+        <id>6</id>
+        <idCategoria>3</idCategoria>
         <tipo>percusion</tipo>
         <nombre>LP CP374 Sleigh Bells</nombre>
         <imagen>../dist/img/percusion/percusion2.PNG</imagen>
@@ -157,7 +161,8 @@
 
     <!-- Orquesta -->
     <producto>
-        <id>4</id>
+        <id>7</id>
+        <idCategoria>4</idCategoria>
         <tipo>orquesta</tipo>
         <nombre>LP 793X Galaxy Giovanni Bongo Set</nombre>
         <imagen>../dist/img/percusion/orquesta1.PNG</imagen>
@@ -181,7 +186,8 @@
     </producto>
 
     <producto>
-        <id>4</id>
+        <id>8</id>
+        <idCategoria>4</idCategoria>
         <tipo>orquesta</tipo>
         <nombre>LP M201 Bongos Matador</nombre>
         <imagen>../dist/img/percusion/orquesta2.PNG</imagen>
@@ -207,7 +213,8 @@
     <!-- Teclado-Piano -->
     <!-- Teclado -->
     <producto>
-        <id>5</id>
+        <id>9</id>
+        <idCategoria>5</idCategoria>
         <tipo>teclado</tipo>
         <nombre>Arturia Keystep Pro</nombre>
         <imagen>../dist/img/teclados/teclados1.PNG</imagen>
@@ -231,7 +238,8 @@
     </producto>
 
     <producto>
-        <id>5</id>
+        <id>10</id>
+        <idCategoria>5</idCategoria>
         <tipo>teclado</tipo>
         <nombre>Novation Launchkey 37 MK3</nombre>
         <imagen>../dist/img/teclados/teclados2.PNG</imagen>
@@ -257,7 +265,8 @@
 
     <!-- Piano -->
     <producto>
-        <id>6</id>
+        <id>11</id>
+        <idCategoria>6</idCategoria>
         <tipo>piano</tipo>
         <nombre>Roth Junius RJGP 186 WH/P Grand Piano</nombre>
         <imagen>../dist/img/teclados/piano1.PNG</imagen>
@@ -280,7 +289,8 @@
     </producto>
 
     <producto>
-        <id>6</id>
+        <id>12</id>
+        <idCategoria>6</idCategoria>
         <tipo>piano</tipo>
         <nombre>Roth Junius RJGP 186 E/P Grand Piano</nombre>
         <imagen>../dist/img/teclados/piano2.PNG</imagen>
@@ -306,7 +316,8 @@
     <!-- Iluminacion-Proyectores -->
     <!-- Iluminacion -->
     <producto>
-        <id>7</id>
+        <id>13</id>
+        <idCategoria>7</idCategoria>
         <tipo>iluminacion</tipo>
         <nombre>MA Lightning grandMA3 onPC Command Wing</nombre>
         <imagen>../dist/img/iluminacion/iluminacion_consola1.jpg</imagen>
@@ -331,7 +342,8 @@
     </producto>
 
     <producto>
-        <id>7</id>
+        <id>14</id>
+        <idCategoria>7</idCategoria>
         <tipo>iluminacion</tipo>
         <nombre>ChamSys QuickQ 10</nombre>
         <imagen>../dist/img/iluminacion/iluminacion-consola2.jpg</imagen>
@@ -358,7 +370,8 @@
 
     <!-- Proyectores -->
     <producto>
-        <id>8</id>
+        <id>15</id>
+        <idCategoria>8</idCategoria>
         <tipo>proyector</tipo>
         <nombre>Fun Generation SePar Hex LED RGBAW UV IR</nombre>
         <imagen>../dist/img/iluminacion/iluminacion-proyector1.jpg</imagen>
@@ -382,7 +395,8 @@
     </producto>
 
     <producto>
-        <id>8</id>
+        <id>16</id>
+        <idCategoria>8</idCategoria>
         <tipo>proyector</tipo>
         <nombre>Stairville BEL6 Tourpack 6</nombre>
         <imagen>../dist/img/iluminacion/iluminacion-proyector2.jpg</imagen>
@@ -411,7 +425,8 @@
     <!-- Controladores-Mezcladores -->
     <!-- Controladores -->
     <producto>
-        <id>9</id>
+        <id>17</id>
+        <idCategoria>9</idCategoria>
         <tipo>controlador</tipo>
         <nombre>Hercules DJ Control Inpulse 300</nombre>
         <imagen>../dist/img/dj/dj_controlador1.jpg</imagen>
@@ -435,7 +450,8 @@
     </producto>
 
     <producto>
-        <id>9</id>
+        <id>18</id>
+        <idCategoria>9</idCategoria>
         <tipo>controlador</tipo>
         <nombre>Denon DJ Prime GO</nombre>
         <imagen>../dist/img/dj/dj_controlador2.jpg</imagen>
@@ -461,7 +477,8 @@
 
     <!-- Mezcladores -->
     <producto>
-        <id>10</id>
+        <id>19</id>
+        <idCategoria>10</idCategoria>
         <tipo>mezclador</tipo>
         <nombre>Rane Seventy Battle Mixer</nombre>
         <imagen>../dist/img/dj/dj-mezclador1.jpg</imagen>
@@ -485,7 +502,8 @@
     </producto>
 
     <producto>
-        <id>10</id>
+        <id>20</id>
+        <idCategoria>10</idCategoria>
         <tipo>mezclador</tipo>
         <nombre>Behringer DX2000USB</nombre>
         <imagen>../dist/img/dj/dj_mezclador2.jpg</imagen>
@@ -510,127 +528,5 @@
     <!-- /Mezcladores -->
     <!-- /Controladores-Mezcladores -->
 
-    <!-- Guitarras-bajos -->
-    <categoria>
-        <id>1</id>
-        <nombre>Guitarras eléctricas</nombre>
-        <imagen>../dist/img/guitarras-bajos/guitarra-electrica.PNG</imagen>
-        <descripcion>Bienvenido a nuestra Guía Online de Guitarras Eléctricas.
-            En las páginas siguientes se va a dar una visión general de los modelos básicos,
-            las diversas situaciones profesionales en las que se utilizan diferentes guitarras,
-            así como proporcionarte más información general acerca del propio instrumento y los
-            mejores accesorios de su clase.</descripcion>
-        <enlace>Ver guitarras eléctricas</enlace>
-    </categoria>
 
-    <categoria>
-        <id>2</id>
-        <nombre>Bajos</nombre>
-        <imagen>../dist/img/guitarras-bajos/bajos.PNG</imagen>
-        <descripcion>El bajo es un instrumento fundamental en prácticamente todos los estilos
-            de música popular, ayudando a precisar tanto groove como armonía. En las siguientes
-            páginas vamos a tratar de darte una visión completa del bajo y todos sus componentes,
-            desde los instrumentos clásicos a los modernos.</descripcion>
-        <enlace>Ver bajos</enlace>
-    </categoria>
-    <!-- /Guitarras-bajos -->
-
-    <!-- Percusion-orquesta -->
-    <categoria>
-        <id>3</id>
-        <nombre>Percusión</nombre>
-        <imagen>../dist/img/percusion/percusion.PNG</imagen>
-        <descripcion>Bienvenido a nuestra Guía Online sobre instrumentos de percusión.
-            La percusión se distingue por la variedad de timbres que es capaz de producir y por
-            su facilidad de adaptación con otros instrumentos musicales. Cabe destacar que puede
-            obtenerse una gran variedad de sonidos según las baquetas o mazos que se usan para
-            golpear algunos de los instrumentos de percusión.</descripcion>
-        <enlace>Ver percusión</enlace>
-    </categoria>
-
-    <categoria>
-        <id>4</id>
-        <nombre>Percusión de orquesta</nombre>
-        <imagen>../dist/img/percusion/orquesta.PNG</imagen>
-        <descripcion>Bienvenido a nuestra Guía Online sobre instrumentos de percusión de orquesta.
-            Así que que has decidido aficionarte a los instrumentos de percusión de orquesta.
-            ¡Muchas Felicidades! Tu nuevo Hobby te traerá con toda seguridad mucha diversión.
-            Y cuanto más te hagas con cada uno de los instrumentos, mayor será tu diversión
-            con sus sonidos. Porque además el comienzo con los instrumentos de percusión es
-            precisamente de los más sencillos.</descripcion>
-        <enlace>Ver percusión de orquesta</enlace>
-    </categoria>
-    <!-- /Percusion-orquesta -->
-
-    <!-- Teclado-piano -->
-    <categoria>
-        <id>5</id>
-        <nombre>Teclados</nombre>
-        <imagen>../dist/img/teclados/teclados.PNG</imagen>
-        <descripcion>Bienvenido a nuestro Asesor Online para Teclados Controladores.
-            En las siguientes páginas se ofrece una visión general de las principales funciones
-            de los teclados controladores, y los principales tipos disponibles.</descripcion>
-        <enlace>Ver teclados</enlace>
-    </categoria>
-
-    <categoria>
-        <id>6</id>
-        <nombre>Pianos</nombre>
-        <imagen>../dist/img/teclados/piano.PNG</imagen>
-        <descripcion>Bienvenido a nuestra Guía Online de Pianos. Los pianos son una gran opción
-            para cualquier persona, desde un principiante a un músico profesional que da conciertos.
-            En esta guía, vamos a tratar de darte la información que necesitas para que puedas elegir
-            el más adecuado para ti.</descripcion>
-        <enlace>Ver pianos</enlace>
-    </categoria>
-    <!-- /Teclado-piano -->
-
-    <!-- Iluminacion-proyector -->
-    <categoria>
-        <id>7</id>
-        <nombre>Controladores de iluminacón</nombre>
-        <imagen>../dist/img/iluminacion/controlador_iluminacion.jpg</imagen>
-        <descripcion>Bienvenido a nuestra guía online sobre DMX. El DMX se estandarizó en el año 1990.
-            Desde entonces y debido a su flexibilidad y estabilidad se ha establecido como un
-            componente solido en la técnica de iluminación. Aunque actualmente ha aparecido una potencial
-            competencia en forma de sistemas de red, muchos no quieren renunciar a la señal DMX.</descripcion>
-        <enlace>Ver sets de iluminación</enlace>
-    </categoria>
-
-    <categoria>
-        <id>8</id>
-        <nombre>Proyectores</nombre>
-        <imagen>../dist/img/iluminacion/proyectores.jpg</imagen>
-        <descripcion>Bienvenido a nuestra guía online sobre DMX. El DMX se estandarizó en el año 1990.
-            Desde entonces y debido a su flexibilidad y estabilidad se ha establecido como un
-            componente solido en la técnica de iluminación. Aunque actualmente ha aparecido una potencial
-            competencia en forma de sistemas de red, muchos no quieren renunciar a la señal DMX.</descripcion>
-        <enlace>Ver proyectores</enlace>
-    </categoria>
-    <!-- /Iluminacion-proyector -->
-
-    <!-- Controlador-mezclador -->
-    <categoria>
-        <id>9</id>
-        <nombre>Controladores Dj</nombre>
-        <imagen>../dist/img/dj/controladores_dj.jpg</imagen>
-        <descripcion>Bienvenidos a nuestra Guía Online acerca del tema de los DJ-Controllers.
-            En las siguientes páginas queremos mostraros las DJ-Tools más conocidas y su forma
-            de funcionamiento y prestaciones en las diferentes clases de producto, y presentaros
-            algunos de los modelos más populares.</descripcion>
-        <enlace>Ver Controladores</enlace>
-    </categoria>
-
-    <categoria>
-        <id>10</id>
-        <nombre>Mezcladores Dj</nombre>
-        <imagen>../dist/img/dj/mesas_mezcla_Dj.jpg</imagen>
-        <descripcion>Bienvenido a nuestro Guía Online de Mezcladores para DJ. Ya seas un aficionado
-            al vinilo o ya te hayas convertido a los CDs, un mezclador es la única cosa que debe
-            incorporar una configuración para DJ. Esta guía echa un vistazo a los conceptos básicos
-            de los mezcladores para DJ, los tipos más comunes del mercado, cómo conectarlos, y cómo
-            la escena de mezcla de DJ está cambiando.</descripcion>
-        <enlace>Ver Mezcladores</enlace>
-    </categoria>
-    <!-- /Controlador-mezclador -->
 </instrumentos>

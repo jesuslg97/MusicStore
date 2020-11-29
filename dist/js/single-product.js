@@ -21,7 +21,7 @@ $(document).ready(function () {
             cache: false,
             dataType: "xml",
             success: function (xml) {
-                $('#guitarra').empty()
+                $('#single-product').empty()
                 $(xml).find("producto").each(function () {
                     var nombre = $(this).find('nombre').text()
                     var img = $(this).find('imagen').text()
@@ -42,12 +42,12 @@ $(document).ready(function () {
                     var tabla2 = $(this).find('tabla2').text()
                     var tabla3 = $(this).find('tabla3').text()
                     var tabla4 = $(this).find('tabla4').text()
-                    //var idproducto = $(this).find('id').text()
-                    var tipo = $(this).find('tipo2').text()
-                    var contenido = '<div class="col-md-3 mb-3 ">' +
+                    var idProducto = $(this).find('id').text()
+                    var idCategoria = $(this).find('idCategoria').text()
+                    var contenido = '<div class="col-md-3 mb-3 text-center">' +
                         '<img alt="" class="img-fluid rounded" src=' + img + '>' +
                         '</div>' +
-                        '<div class="col-md-6">' +
+                        '<div class="col-md-5">' +
                         '<h4>' + nombre + '</h4>' +
                         '<ul>' +
                         '<li class="col1">' + des1 + '</li>' +
@@ -60,7 +60,7 @@ $(document).ready(function () {
                         '<li class="col2">' + des8 + '</li>' +
                         '</ul>' +
                         '</div>' +
-                        '<div class="col-md-3 mt-5">' +
+                        '<div class="col-md-4 mt-5">' +
                         '<table class="table">' +
                         '<tbody>' +
                         '<tr>' +
@@ -94,14 +94,12 @@ $(document).ready(function () {
                         '</div>' +
                         '<div class="col-md-12 d-xl-none">' +
                         '<hr>' +
-                        '</div>'
+                        '</div>';
 
-                    if (id === "1") {
-                        if (tipo === "g1") {
-                            $('#guitarra').append(contenido);
-                        }
+                    if (idProducto === id){
+                        $("#single-product").append(contenido);
+                        activateNavbar(idCategoria);
                     }
-
                 });
             }
         });
