@@ -1,62 +1,16 @@
-.form1 {
-    background: rgba(196,196,196,0.8);
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 5%;
-    padding: 8%;
-    padding-top: 3%;
-    border-radius: 10px;
-}
-
-.form1 button {
+.custom-form button {
     background: #333333;
     border: #333333;
 }
 
-.form1 a {
+.custom-form a {
     color: #000000;
 }
 
-.form1 label {
+.custom-form label {
     font-family: Source Serif Pro;
     color: black;
     font-size: large;
-}
-
-.form2 {
-    background: rgba(196,196,196,0.8);
-    width: 60%;
-    margin-left: 20%;
-    margin-top: 5%;
-    padding: 8%;
-    padding-top: 3%;
-    border-radius: 10px;
-}
-
-.form2 button {
-    background: #333333;
-    border: #333333;
-}
-
-.form2 label {
-    font-family: Source Serif Pro;
-    color: black;
-    font-size: large;
-}
-
-.form3 {
-    background: rgba(196,196,196,0.8);
-    width: 70%;
-    margin-left: 15%;
-    margin-top: 5%;
-    padding: 8%;
-    padding-top: 3%;
-    border-radius: 10px;
-}
-
-.form3 button {
-    background: #333333;
-    border: #333333;
 }
 
 .error {
