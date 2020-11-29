@@ -51,3 +51,7 @@ body {
 a:visited {
     color: darkviolet;
 }
+
+#carrito-realizarPedido:visited {
+    color: white;
+}
