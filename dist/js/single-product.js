@@ -2,20 +2,20 @@ $(document).ready(function () {
 
     var url = window.location.href
     var id = url.substring(url.lastIndexOf('=') + 1)
-    //var freq = 10000;
+    var freq = 10000;
 
-    /*function startAJAXcalls() {
+    function startAJAXcalls() {
         setTimeout(function () {
-                getXMLSingle();
+                getJSONSingle();
                 startAJAXcalls();
             },
             freq
         );
     }
-    getXMLSingle();
-    startAJAXcalls();*/
+    getJSONSingle();
+    startAJAXcalls();
 
-    //function getXMLSingle() {
+    function getJSONSingle() {
         $.ajax({
             url: "http://127.0.0.1:3000/productos",
             cache: false,
@@ -73,5 +73,5 @@ $(document).ready(function () {
                 });
             }
         });
-    //}
+    }
 });
