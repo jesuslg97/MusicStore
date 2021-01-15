@@ -56,8 +56,6 @@ $(document).ready(function () {
                         '</div>' +
                         '<div class="col-md-8 text-center mt-3">' +
                         '<button onclick="" class="btn btn-dark">Añadir al carrito</button>' +
-                        '<button onclick="" class="btn btn-dark">' + instrumento.id + '</button>' +
-                        '<button onclick="" class="btn btn-dark">' + instrumento.idCategoria + '</button>' +
                         '</div>' +
                         '</div>' +
                         '</div>' +
@@ -65,9 +63,9 @@ $(document).ready(function () {
                         '<hr>' +
                         '</div>';
 
-                    if (instrumento.id !== id){
+                    if (instrumento.id === parseInt(id)){
                         $("#single-product").append(contenido);
-                        //activateNavbar(idCategoria);
+                        activateNavbar(instrumento.idCategoria.toString());
                     }
 
                 });
