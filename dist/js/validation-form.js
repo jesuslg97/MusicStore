@@ -3,8 +3,9 @@ function validate_login() {
 
     //Variables
     var email = document.getElementById("email").value;
-    var passwd = document.getElementById("passwd").value;
+   // var passwd = document.getElementById("passwd").value;
     var flag = true;
+
 
     //Validar email
     var regex_email = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
@@ -15,16 +16,26 @@ function validate_login() {
     } else {
         document.getElementById("eemail").innerHTML ="";
     }
-
-    //Validar password
-    var regex_passwd = /^(?=.*\d)(?=.*[\u0021-\u002b\u003c-\u0040])(?=.*[A-Z])(?=.*[a-z])\S{8,16}$/;
-    if(regex_passwd.test(passwd) !== true) {
-        document.getElementById("epasswd").innerHTML ="La contraseña debe tener al entre 8 y 16 caracteres, " +
-            "al menos un dígito, al menos una minúscula, al menos una mayúscula y al menos un caracter no alfanumérico.";
-        flag = false;
-    } else {
-        document.getElementById("epasswd").innerHTML ="";
-    }
+    /*
+        //Validar password
+        var regex_passwd = /^(?=.*\d)(?=.*[\u0021-\u002b\u003c-\u0040])(?=.*[A-Z])(?=.*[a-z])\S{8,16}$/;
+        if(regex_passwd.test(passwd) !== true) {
+            document.getElementById("epasswd").innerHTML ="La contraseña debe tener al entre 8 y 16 caracteres, " +
+                "al menos un dígito, al menos una minúscula, al menos una mayúscula y al menos un caracter no alfanumérico.";
+            flag = false;
+        } else {
+            document.getElementById("epasswd").innerHTML ="";
+        }*/
+    $.getJSON("http://127.0.0.1:3000/users", function (json) {
+        for (var user in json) {
+            if (json[user].email === mail) {
+                alert("Usuarios y contraseña correctas");
+            } else {
+                alert("Usuario o contraseña incorrecto");
+                flag = false;
+            }
+        }
+    });
     return flag;
 }
 
