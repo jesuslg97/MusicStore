@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var url = window.location.href;
     var id = url.substring(url.lastIndexOf('=') + 1);
-    var freq = 10000;
+    var freq = 100000;
     function startAJAXcalls() {
         setTimeout(function () {
                 getXMLProduct();
@@ -24,7 +24,7 @@ $(document).ready(function () {
 
                 categorias.forEach(function (categoria){
                     var name =  categoria.nombre;
-                    var img = categoria.img;
+                    var img = categoria.image;
                     var des = categoria.descripcion;
                     var idCategoria = categoria.id;
                     var contenido = '<div class="row">' +
