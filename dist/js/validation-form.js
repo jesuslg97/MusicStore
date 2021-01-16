@@ -1,4 +1,5 @@
 /*Función para validar el formulario login.html*/
+
 function validate_login() {
 
     //Variables
