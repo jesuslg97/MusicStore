@@ -8,7 +8,7 @@ function login() {
         console.log("Lee el json");
         for (var user in json) {
             if (json.hasOwnProperty(user)) {
-                if (json[user].email == mail && json[user].contraseña == password) {
+                if (json[user].email === mail && json[user].contraseña === password) {
                     console.log("Encuentra el usuario");
                     flag = true;
                     break
