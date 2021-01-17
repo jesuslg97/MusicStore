@@ -39,7 +39,7 @@ $(document).ready(function () {
                         '<tbody>' +
                         '<tr>' +
                         '<th>Color</th>' +
-                        '<td>' + instrumento.color + '</td>' +
+                        '<td class="align-middle"><div style="background-color: ' + instrumento.color + '; width: 60px; height: 25px"></div></td>' +
                         '</tr>' +
                         '<tr>' +
                         '<th>Material</th>' +
@@ -65,7 +65,7 @@ $(document).ready(function () {
 
                     if (instrumento.id === parseInt(id)){
                         $("#single-product").append(contenido);
-                        activateNavbar(instrumento.idCategoria.toString());
+                        activateNavbar(instrumento.categoria_id.toString());
                     }
 
                 });

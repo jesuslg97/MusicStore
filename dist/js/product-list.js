@@ -51,44 +51,44 @@ $(document).ready(function () {
                         '<hr>' +
                         '</div>';
 
+                    if (instrumento.categoria_id === 1) {
 
-                    if (instrumento.tipo === "guitarra") {
                         if (id === "1") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if (instrumento.tipo === "bajo") {
+                    } else if (instrumento.categoria_id === 2) {
                         if (id === "2") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if (instrumento.tipo === "percusion") {
+                    } else if (instrumento.categoria_id === 3) {
                         if (id === "3") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if (instrumento.tipo === "orquesta") {
+                    } else if (instrumento.categoria_id === 4) {
                         if (id === "4") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if (instrumento.tipo === "teclado") {
+                    } else if (instrumento.categoria_id === 5) {
                         if (id === "5") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if (instrumento.tipo === "piano") {
+                    } else if (instrumento.categoria_id === 6) {
                         if (id === "6") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if (instrumento.tipo === "iluminacion") {
+                    } else if (instrumento.categoria_id === 7) {
                         if (id === "7") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if (instrumento.tipo === "proyector") {
+                    } else if (instrumento.categoria_id === 8) {
                         if (id === "8") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if (instrumento.tipo === "controlador") {
+                    } else if (instrumento.categoria_id === 9) {
                         if (id === "9") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if (instrumento.tipo === "mezclador") {
+                    } else if (instrumento.categoria_id === 10) {
                         if (id === "10") {
                             $('#producto-lista').append(contenido);
                         }
