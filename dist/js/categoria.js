@@ -18,7 +18,7 @@ $(document).ready(function () {
     function getXMLProduct() {
 
         $.ajax({
-            url: "http://127.0.0.1:3000/categorias_api/index",
+            url: "https://musicstorerails.herokuapp.com/categorias_api/index",
             success: function (categorias) {
                 $('#categoria').empty()
 
@@ -57,8 +57,8 @@ $(document).ready(function () {
                         if (id === "7" || id === "8"){
                             $('#categoria').append(contenido);
                         }
-                    } else if (idCategoria === 9 || idCategoria === 10) {
-                        if (id === "9" || id === "10"){
+                    } else if (idCategoria === 9 || idCategoria === 12) {
+                        if (id === "9" || id === "12"){
                             $('#categoria').append(contenido);
                         }
                     }

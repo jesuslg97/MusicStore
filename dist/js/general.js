@@ -26,7 +26,7 @@ function activateNavbar(id) {
     if (id === "9") {
         $('#djNav').addClass('active');
     }
-    if (id === "10") {
+    if (id === "12") {
         $('#djNav').addClass('active');
     }
 }

@@ -17,7 +17,7 @@ $(document).ready(function () {
 
     function getJSONProductList() {
         $.ajax({
-            url: "http://127.0.0.1:3000/informacion",
+            url: "https://musicstorerails.herokuapp.com/informacion",
             cache: false,
             dataType: 'json',
             data: JSON,
@@ -88,8 +88,8 @@ $(document).ready(function () {
                         if (id === "9") {
                             $('#producto-lista').append(contenido);
                         }
-                    } else if (instrumento.categoria_id === 10) {
-                        if (id === "10") {
+                    } else if (instrumento.categoria_id === 12) {
+                        if (id === "12") {
                             $('#producto-lista').append(contenido);
                         }
                     }
